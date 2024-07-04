@@ -1,0 +1,98 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-22 15:05:00.565595",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "consumer_number",
+  "previous_reading_date",
+  "present_reading_date",
+  "no_of_days",
+  "initial_meter_reading",
+  "final_meter_reading",
+  "column_break_x4e2d",
+  "unit_consumed_readings",
+  "mf",
+  "unit_consumed_kwh_month",
+  "unit_consumed_kwh_day",
+  "solar_plant_required_kwp_day"
+ ],
+ "fields": [
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "previous_reading_date",
+   "fieldtype": "Date",
+   "label": "Previous Reading Date"
+  },
+  {
+   "fieldname": "present_reading_date",
+   "fieldtype": "Date",
+   "label": "Present Reading Date"
+  },
+  {
+   "fieldname": "no_of_days",
+   "fieldtype": "Int",
+   "label": "No of Days"
+  },
+  {
+   "fieldname": "initial_meter_reading",
+   "fieldtype": "Data",
+   "label": "Initial Meter Reading"
+  },
+  {
+   "fieldname": "final_meter_reading",
+   "fieldtype": "Data",
+   "label": "Final Meter Reading"
+  },
+  {
+   "fieldname": "column_break_x4e2d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "unit_consumed_readings",
+   "fieldtype": "Float",
+   "label": "Unit Consumed (Readings)"
+  },
+  {
+   "fieldname": "mf",
+   "fieldtype": "Data",
+   "label": "MF"
+  },
+  {
+   "fieldname": "unit_consumed_kwh_month",
+   "fieldtype": "Float",
+   "label": "Unit Consumed Kwh Month"
+  },
+  {
+   "fieldname": "unit_consumed_kwh_day",
+   "fieldtype": "Float",
+   "label": "Unit Consumed Kwh Day"
+  },
+  {
+   "fieldname": "solar_plant_required_kwp_day",
+   "fieldtype": "Float",
+   "label": "Solar Plant Required Kwp Day"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-01-22 15:05:00.565595",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Energy Anaysis Consumer Number Child Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

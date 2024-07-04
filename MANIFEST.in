@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include a3sola_solar_management *.css
+recursive-include a3sola_solar_management *.csv
+recursive-include a3sola_solar_management *.html
+recursive-include a3sola_solar_management *.ico
+recursive-include a3sola_solar_management *.js
+recursive-include a3sola_solar_management *.json
+recursive-include a3sola_solar_management *.md
+recursive-include a3sola_solar_management *.png
+recursive-include a3sola_solar_management *.py
+recursive-include a3sola_solar_management *.svg
+recursive-include a3sola_solar_management *.txt
+recursive-exclude a3sola_solar_management *.pyc

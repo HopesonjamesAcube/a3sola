@@ -1,0 +1,199 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: TA-{DD}-{MM}-{YY}-{#####}",
+ "creation": "2022-04-13 10:53:04.023146",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status",
+  "customer_name",
+  "consumer_number",
+  "opportunity_id",
+  "quotation_id",
+  "section",
+  "column_break_3",
+  "address",
+  "building_number",
+  "lead_id",
+  "section_break_6",
+  "item",
+  "item_capacity",
+  "amount",
+  "column_break_9",
+  "subsidy_amount",
+  "grand_total",
+  "section_break_17",
+  "signed_agreement",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fetch_from": "quotation_id.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "quotation_id.consumer_number",
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fetch_from": "opportunity_id.section",
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fetch_from": "quotation_id.bom_item",
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "item.item_capacity",
+   "fieldname": "item_capacity",
+   "fieldtype": "Data",
+   "label": "Item Capacity"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "item.standard_rate",
+   "fieldname": "amount",
+   "fieldtype": "Data",
+   "label": "Amount"
+  },
+  {
+   "fetch_from": "quotation_id.subsidy_amount",
+   "fieldname": "subsidy_amount",
+   "fieldtype": "Currency",
+   "label": "Subsidy Amount"
+  },
+  {
+   "fetch_from": "quotation_id.rounded_total",
+   "fieldname": "grand_total",
+   "fieldtype": "Data",
+   "label": "Grand Total"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Tripartite Agreement",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "opportunity_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Opportunity ID",
+   "options": "Opportunity"
+  },
+  {
+   "fetch_from": "quotation_id.party_name",
+   "fieldname": "lead_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Lead ID",
+   "options": "Lead"
+  },
+  {
+   "fetch_from": "address.building_number",
+   "fieldname": "building_number",
+   "fieldtype": "Data",
+   "label": "Building Number"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "STAMP PAPER PURCHASE\nSOLAR AGREEMENT PREPARATION\nCOLLECT SIGNED DOCUMENTS FROM CUSTOMER SIDE\nUPLOAD SIGNED TRIPARTITE AND STRUCTURAL DESIGN"
+  },
+  {
+   "fieldname": "section_break_17",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "signed_agreement",
+   "fieldtype": "Attach",
+   "label": "Signed Agreement"
+  },
+  {
+   "fieldname": "quotation_id",
+   "fieldtype": "Link",
+   "label": "Quotation ID",
+   "options": "Quotation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-03-28 09:41:15.879642",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Tripartite Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

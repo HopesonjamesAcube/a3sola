@@ -1,0 +1,36 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.notification_reorder==1",
+ "creation": "2023-09-08 13:13:48.907039",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Item",
+ "enabled": 0,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "{{doc.item_name}}  Stock Alert !!!!",
+ "modified": "2023-09-15 15:10:01.483595",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Stock Alert",
+ "owner": "Administrator",
+ "property_value": "0",
+ "recipients": [
+  {
+   "receiver_by_role": "Stock Manager"
+  },
+  {
+   "receiver_by_role": "Main User"
+  },
+  {
+   "receiver_by_role": "Stock User"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "notification_reorder",
+ "subject": "Stock Alert"
+}

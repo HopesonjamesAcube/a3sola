@@ -1,0 +1,275 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Commissioning-Report-{customer}-{###}",
+ "creation": "2024-03-11 15:31:55.211021",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "consumer_number",
+  "phone_number",
+  "contact_person",
+  "longitude",
+  "address",
+  "utility_provider",
+  "column_break_aznzt",
+  "customer",
+  "posting_date",
+  "email",
+  "location",
+  "latitude",
+  "address_of_installation",
+  "section",
+  "details_of_solar_module_installed_section",
+  "capacity",
+  "model",
+  "test_certificate_iec_standards",
+  "column_break_3gpja",
+  "make",
+  "serial_no",
+  "warranty",
+  "details_of_solar_inverter_installed_section",
+  "capacitys",
+  "models",
+  "test_certificates__iec_standards",
+  "column_break_tx7vf",
+  "makes",
+  "serial_nos",
+  "warrantys",
+  "details_of_power_optimizer_installed_section",
+  "capacities",
+  "model1",
+  "test_certificate__iec_standard",
+  "column_break_lxmo8",
+  "make1",
+  "serial_no1",
+  "warranty1"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "column_break_aznzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "address_of_installation",
+   "fieldtype": "Link",
+   "label": "Address of Installation",
+   "options": "Address"
+  },
+  {
+   "fieldname": "details_of_solar_module_installed_section",
+   "fieldtype": "Section Break",
+   "label": "Details of Solar Module Installed"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "warranty",
+   "fieldtype": "Data",
+   "label": "Warranty"
+  },
+  {
+   "fieldname": "column_break_3gpja",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Link",
+   "label": "Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "test_certificate_iec_standards",
+   "fieldtype": "Small Text",
+   "label": "Test certificate / IEC Standards"
+  },
+  {
+   "fieldname": "details_of_solar_inverter_installed_section",
+   "fieldtype": "Section Break",
+   "label": "Details of Solar Inverter Installed"
+  },
+  {
+   "fieldname": "capacitys",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "models",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "test_certificates__iec_standards",
+   "fieldtype": "Small Text",
+   "label": "Test certificate / IEC Standards"
+  },
+  {
+   "fieldname": "column_break_tx7vf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "makes",
+   "fieldtype": "Link",
+   "label": "Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "serial_nos",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "warrantys",
+   "fieldtype": "Data",
+   "label": "Warranty"
+  },
+  {
+   "fieldname": "details_of_power_optimizer_installed_section",
+   "fieldtype": "Section Break",
+   "label": "Details of Power Optimizer Installed"
+  },
+  {
+   "fieldname": "capacities",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "model1",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "test_certificate__iec_standard",
+   "fieldtype": "Small Text",
+   "label": "Test certificate / IEC Standards"
+  },
+  {
+   "fieldname": "column_break_lxmo8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "make1",
+   "fieldtype": "Link",
+   "label": "Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "serial_no1",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "warranty1",
+   "fieldtype": "Data",
+   "label": "Warranty"
+  },
+  {
+   "fieldname": "utility_provider",
+   "fieldtype": "Data",
+   "label": "Utility Provider"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-11 17:54:47.070698",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Commissioning Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

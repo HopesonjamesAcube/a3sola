@@ -1,0 +1,1 @@
+The lead {{doc.party_name}} converted to opportunity

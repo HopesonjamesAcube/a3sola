@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-22 11:56:23.303540",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sms_template_section",
+  "template_parameter",
+  "sms_template"
+ ],
+ "fields": [
+  {
+   "fieldname": "sms_template_section",
+   "fieldtype": "Section Break",
+   "label": "SMS Template"
+  },
+  {
+   "fieldname": "template_parameter",
+   "fieldtype": "Data",
+   "label": "Template Parameter"
+  },
+  {
+   "fieldname": "sms_template",
+   "fieldtype": "Table",
+   "label": "SMS Template",
+   "options": "SMS Templates"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-03-22 11:56:23.303540",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "SMS Template General",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

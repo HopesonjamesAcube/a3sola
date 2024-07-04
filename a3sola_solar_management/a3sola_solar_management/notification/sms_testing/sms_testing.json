@@ -1,0 +1,28 @@
+{
+ "attach_print": 0,
+ "channel": "SMS",
+ "condition": "",
+ "creation": "2023-03-16 19:16:46.985290",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Lead",
+ "enabled": 0,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Welcome to BSS GREEN LIFE privileged community. Acknowledged with thanks for the registration Rs.1000.More support @04872422609",
+ "modified": "2023-03-22 10:59:42.207310",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "SMS testing",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "number_to_be_contacted"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Test"
+}

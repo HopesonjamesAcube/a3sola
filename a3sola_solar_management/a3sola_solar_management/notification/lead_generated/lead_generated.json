@@ -1,0 +1,33 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status==\"Lead\" and doc.cnot==1",
+ "creation": "2022-12-30 15:00:14.509106",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Lead",
+ "enabled": 0,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Thanks for your interest in the Solar Power Plant. Our Executive will contact you soon. The unique ID assigned for you is : {{doc.name}}.",
+ "modified": "2023-03-20 12:56:51.090123",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Lead Generated",
+ "owner": "Administrator",
+ "print_format": "",
+ "recipients": [
+  {
+   "condition": "doc.status==\"Lead\"",
+   "receiver_by_document_field": "email_id",
+   "receiver_by_role": ""
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "sender": "",
+ "sender_email": "",
+ "subject": "Lead id {{ doc.name }} Generated for {{doc.lead_name}}"
+}

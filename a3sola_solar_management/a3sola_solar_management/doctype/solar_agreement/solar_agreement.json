@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: SA-{DD}-{MM}-{YY}-{#####}",
+ "creation": "2022-04-13 15:41:50.347440",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "opportunity_id",
+  "column_break_3",
+  "address",
+  "section",
+  "section_break_6",
+  "authority_name",
+  "authority_designation",
+  "location",
+  "column_break_9",
+  "authority_address",
+  "section_break_10",
+  "spin_number",
+  "solar_plant_capacity",
+  "project_with_kseb_payment",
+  "cheque_or_dd_number",
+  "column_break_14",
+  "amount_paid",
+  "cheque_or_dd_date"
+ ],
+ "fields": [
+  {
+   "fetch_from": "opportunity_id.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location of Signature"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "authority_name",
+   "fieldtype": "Data",
+   "label": "Authority Name"
+  },
+  {
+   "fieldname": "authority_designation",
+   "fieldtype": "Data",
+   "label": "Authority Designation"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "authority_address",
+   "fieldtype": "Small Text",
+   "label": "Authority Address"
+  },
+  {
+   "fetch_from": "customer_name.spin_number",
+   "fieldname": "spin_number",
+   "fieldtype": "Data",
+   "label": "SPIN Number"
+  },
+  {
+   "fieldname": "solar_plant_capacity",
+   "fieldtype": "Data",
+   "label": "Solar Plant Capacity"
+  },
+  {
+   "fieldname": "project_with_kseb_payment",
+   "fieldtype": "Select",
+   "label": "Project with KSEB Payment",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amount_paid",
+   "fieldtype": "Data",
+   "label": "Amount Paid"
+  },
+  {
+   "fieldname": "cheque_or_dd_number",
+   "fieldtype": "Data",
+   "label": "Cheque or DD Number"
+  },
+  {
+   "fieldname": "cheque_or_dd_date",
+   "fieldtype": "Date",
+   "label": "Cheque or DD Date"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "opportunity_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Opportunity ID",
+   "options": "Opportunity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-10-26 18:36:42.652173",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Solar Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

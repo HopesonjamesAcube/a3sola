@@ -1,0 +1,28 @@
+{
+ "attach_print": 0,
+ "channel": "SMS",
+ "condition": "",
+ "creation": "2023-03-22 10:37:40.956953",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Lead",
+ "enabled": 0,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "You have to pay a Rs.{#var#} pending bill. Payment should be completed as soon as possible.",
+ "modified": "2023-03-22 10:40:09.819549",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "LEAD SMS TEST",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "number_to_be_contacted"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Test"
+}

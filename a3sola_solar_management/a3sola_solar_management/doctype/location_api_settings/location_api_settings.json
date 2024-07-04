@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-14 18:04:55.758434",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "parameters_section",
+  "domain",
+  "enabled",
+  "column_break_xdry8",
+  "site_survey_location_fetching_enabled",
+  "data_epgul",
+  "api_key",
+  "lead_creation_location_fetching_enabled",
+  "attendance_location_fetching_enabled",
+  "distance_api_settings_section",
+  "distance_api_enabled",
+  "api_keys"
+ ],
+ "fields": [
+  {
+   "fieldname": "parameters_section",
+   "fieldtype": "Section Break",
+   "label": "Location API Settings"
+  },
+  {
+   "fieldname": "domain",
+   "fieldtype": "Data",
+   "label": "Domain"
+  },
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Lead Call Location Fetching Enabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "column_break_xdry8",
+   "fieldtype": "Check",
+   "label": "Site Survey Location Fetching Enabled"
+  },
+  {
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "default": "0",
+   "fieldname": "lead_creation_location_fetching_enabled",
+   "fieldtype": "Check",
+   "label": "Lead Creation Location Fetching Enabled"
+  },
+  {
+   "fieldname": "data_epgul",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "site_survey_location_fetching_enabled",
+   "fieldtype": "Check",
+   "label": "Site Survey Location Fetching Enabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "attendance_location_fetching_enabled",
+   "fieldtype": "Check",
+   "label": "Attendance Location Fetching Enabled"
+  },
+  {
+   "fieldname": "distance_api_settings_section",
+   "fieldtype": "Section Break",
+   "label": "Distance API Settings"
+  },
+  {
+   "default": "0",
+   "fieldname": "distance_api_enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "api_keys",
+   "fieldtype": "Data",
+   "label": "API Key"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-02-15 12:12:15.837200",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Location API Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

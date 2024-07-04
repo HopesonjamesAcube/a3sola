@@ -1,0 +1,333 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-27 12:49:23.383292",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "name_of_electrical_division_and_sub_division",
+  "tariff",
+  "column_break_wpxxz",
+  "name_of_electrical_section",
+  "consumer_number",
+  "connected_load",
+  "customer_details_section",
+  "name_of_solar_plant_owner",
+  "contact_number_of_consumer",
+  "address",
+  "column_break_kebl3",
+  "email_id",
+  "alternate_contact_no",
+  "bank_details_section",
+  "bank_name",
+  "account_no",
+  "column_break_n0hze",
+  "branch",
+  "ifsc_code",
+  "solar_plant_details_section",
+  "type_of_plant",
+  "number_of_panels",
+  "make_and_serial_no_of_inverters",
+  "inverter_capacity",
+  "voltage_and_number_of_phases",
+  "whether_completion_certificate_submitted_in_electrical_section",
+  "details_of_energisation_approval_by_electrical_section",
+  "whether_visual_isolator_provided_before_connectivity_point",
+  "over_voltage_settings_provided_in_the_inverter",
+  "under_voltage_settings_provided_in_the_inverter",
+  "over_frequency_settings_provided_in_the_inverter",
+  "whether_over_and_under_frequency_trip_function",
+  "column_break_gewzn",
+  "total_capacity_of_solar_plant",
+  "individual_capacity_of_panels",
+  "inverter_type_single_phasethree_phase",
+  "dc_input_voltage_of_inverters",
+  "if_inverter_is_hybrid_is_scheme_approved_by_ce_rees",
+  "whether_energisation_approval_obtained_from_electrical_section",
+  "whether_dc_isolator_provided_on_incoming_side_of_the_inverter",
+  "wiring_connections_as_per_approved_scheme_are_completed",
+  "whether_over_and_under_voltage_trip_function_provided",
+  "trip_time_settings_provided_in_the_inverter",
+  "under_frequency_settings_provided_in_the_inverter",
+  "whether_protection_against_unintentional_islanding_provided",
+  "grid_failure_trip_delay",
+  "details_of_re_energisation_time_delay_setting"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project Id",
+   "options": "Project"
+  },
+  {
+   "fieldname": "name_of_electrical_division_and_sub_division",
+   "fieldtype": "Data",
+   "label": "Name of Electrical Division and Sub Division"
+  },
+  {
+   "fieldname": "tariff",
+   "fieldtype": "Data",
+   "label": "Tariff"
+  },
+  {
+   "fieldname": "column_break_wpxxz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "name_of_electrical_section",
+   "fieldtype": "Data",
+   "label": "Name of Electrical Section"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "connected_load",
+   "fieldtype": "Data",
+   "label": "Connected Load"
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "name_of_solar_plant_owner",
+   "fieldtype": "Link",
+   "label": "Name of Solar plant Owner",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "contact_number_of_consumer",
+   "fieldtype": "Data",
+   "label": "Contact Number of Consumer"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "column_break_kebl3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fieldname": "alternate_contact_no",
+   "fieldtype": "Data",
+   "label": "Alternate Contact no"
+  },
+  {
+   "fieldname": "bank_details_section",
+   "fieldtype": "Section Break",
+   "label": "Bank Details"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "account_no",
+   "fieldtype": "Data",
+   "label": "Account No"
+  },
+  {
+   "fieldname": "column_break_n0hze",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "ifsc_code",
+   "fieldtype": "Data",
+   "label": "IFSC Code"
+  },
+  {
+   "fieldname": "solar_plant_details_section",
+   "fieldtype": "Section Break",
+   "label": "Solar Plant Details"
+  },
+  {
+   "fieldname": "type_of_plant",
+   "fieldtype": "Select",
+   "label": "Type of Plant",
+   "options": "\nOn-Grid\nOff-Grid"
+  },
+  {
+   "fieldname": "number_of_panels",
+   "fieldtype": "Data",
+   "label": "Number of Panels"
+  },
+  {
+   "fieldname": "make_and_serial_no_of_inverters",
+   "fieldtype": "Data",
+   "label": "Make and Serial No. of Inverters"
+  },
+  {
+   "fieldname": "column_break_gewzn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_capacity_of_solar_plant",
+   "fieldtype": "Data",
+   "label": "Total Capacity of Solar Plant "
+  },
+  {
+   "fieldname": "individual_capacity_of_panels",
+   "fieldtype": "Data",
+   "label": "Individual Capacity of Panels"
+  },
+  {
+   "fieldname": "inverter_type_single_phasethree_phase",
+   "fieldtype": "Select",
+   "label": "Inverter Type Single Phase/Three Phase",
+   "options": "\nSingle Phase\nThree Phase"
+  },
+  {
+   "fieldname": "inverter_capacity",
+   "fieldtype": "Data",
+   "label": "Inverter Capacity "
+  },
+  {
+   "fieldname": "voltage_and_number_of_phases",
+   "fieldtype": "Data",
+   "label": "Voltage and Number of Phases "
+  },
+  {
+   "fieldname": "dc_input_voltage_of_inverters",
+   "fieldtype": "Data",
+   "label": "DC Input Voltage of Inverters "
+  },
+  {
+   "fieldname": "if_inverter_is_hybrid_is_scheme_approved_by_ce_rees",
+   "fieldtype": "Select",
+   "label": "If inverter is Hybrid. is Scheme Approved by CE (REES)",
+   "options": "NA\nYES\nNO"
+  },
+  {
+   "fieldname": "whether_completion_certificate_submitted_in_electrical_section",
+   "fieldtype": "Select",
+   "label": "Whether Completion Certificate Submitted in Electrical Section",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "whether_energisation_approval_obtained_from_electrical_section",
+   "fieldtype": "Select",
+   "label": "Whether Energisation Approval Obtained from Electrical Section",
+   "options": "\nNA\nYES\nNO"
+  },
+  {
+   "fieldname": "details_of_energisation_approval_by_electrical_section",
+   "fieldtype": "Small Text",
+   "label": "Details of Energisation Approval by Electrical Section"
+  },
+  {
+   "fieldname": "whether_dc_isolator_provided_on_incoming_side_of_the_inverter",
+   "fieldtype": "Select",
+   "label": "Whether DC Isolator Provided on Incoming Side of the Inverter",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "whether_visual_isolator_provided_before_connectivity_point",
+   "fieldtype": "Select",
+   "label": "Whether Visual Isolator Provided Before Connectivity Point",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "wiring_connections_as_per_approved_scheme_are_completed",
+   "fieldtype": "Select",
+   "label": "Wiring Connections as per Approved Scheme are Completed",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "whether_over_and_under_voltage_trip_function_provided",
+   "fieldtype": "Select",
+   "label": "Whether Over And Under voltage Trip function provided",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "over_voltage_settings_provided_in_the_inverter",
+   "fieldtype": "Data",
+   "label": "Over Voltage Settings Provided In the Inverter "
+  },
+  {
+   "fieldname": "under_voltage_settings_provided_in_the_inverter",
+   "fieldtype": "Data",
+   "label": "Under Voltage Settings Provided In the Inverter "
+  },
+  {
+   "fieldname": "trip_time_settings_provided_in_the_inverter",
+   "fieldtype": "Data",
+   "label": "Trip Time Settings Provided In the Inverter "
+  },
+  {
+   "fieldname": "over_frequency_settings_provided_in_the_inverter",
+   "fieldtype": "Data",
+   "label": "Over Frequency Settings Provided In the Inverter "
+  },
+  {
+   "fieldname": "under_frequency_settings_provided_in_the_inverter",
+   "fieldtype": "Data",
+   "label": "Under Frequency Settings Provided In the Inverter "
+  },
+  {
+   "fieldname": "whether_over_and_under_frequency_trip_function",
+   "fieldtype": "Select",
+   "label": "Whether Over and Under Frequency Trip Function",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "whether_protection_against_unintentional_islanding_provided",
+   "fieldtype": "Select",
+   "label": "Whether Protection Against Unintentional Islanding Provided",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "grid_failure_trip_delay",
+   "fieldtype": "Select",
+   "label": "Grid Failure Trip Delay",
+   "options": "\nYES\nNO"
+  },
+  {
+   "fieldname": "details_of_re_energisation_time_delay_setting",
+   "fieldtype": "Data",
+   "label": "Details of Re Energisation Time Delay Setting"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-27 15:07:19.168789",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "KSEB Checklist",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

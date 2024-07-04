@@ -1,0 +1,1 @@
+{{doc.item_name}}  Stock Alert !!!!

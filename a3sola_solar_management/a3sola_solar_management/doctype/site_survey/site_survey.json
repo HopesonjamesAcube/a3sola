@@ -1,0 +1,446 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-02-08 10:06:15.067920",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "customer_name",
+  "contact_number",
+  "survey_date",
+  "survey_engineer",
+  "amended_from",
+  "section_break_7",
+  "customer_address",
+  "registered_in_kseb_soura",
+  "circle_name",
+  "number_of_phase",
+  "column_break_102",
+  "consumer_number",
+  "name_of_electrical_station",
+  "required_pv_connection",
+  "roof_and_structure_details_section",
+  "availability_of_south_facing_module_mounting_area",
+  "roof_type",
+  "parapet_wall_height",
+  "column_break_21",
+  "building_height_or_number_of_floor",
+  "roof_angle_of_inclination",
+  "shade_free_area_available",
+  "cable_routing_details_section",
+  "cable_routing_confirmed_by_client",
+  "spv_module_to_ajb_cable_lenght",
+  "inverter_to_acdb_cable_length",
+  "column_break_29",
+  "ajb_to_inverter_cable_length",
+  "acdb_to_ex_lt_panel_or_db_cable_length",
+  "earthing_and_lightening_arrester_details_section",
+  "earthing_cable_length",
+  "earth_pit_location_confirmed_by_client",
+  "column_break_35",
+  "la_down_conductor_length",
+  "attachments_section",
+  "aadhar_front",
+  "passport_size_photo",
+  "module_mounting_area",
+  "earthpit_location",
+  "house_front_view",
+  "column_break_41",
+  "aadhar_back",
+  "latest_kseb_bill",
+  "inverter_mounting_area",
+  "roof_photo",
+  "check_list_section",
+  "checklist_table",
+  "additional_work_column",
+  "additional_items",
+  "additional_work",
+  "details_of_additional_cables",
+  "remarks",
+  "section_break_41",
+  "upload_consent_letter",
+  "section_break_43",
+  "authorized_by",
+  "column_break_45",
+  "authorization_date",
+  "section_break_47",
+  "authorization_remark"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "survey_date",
+   "fieldtype": "Date",
+   "label": "Survey Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Site Survey",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "customer_address",
+   "fieldtype": "Link",
+   "label": "Customer Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "registered_in_kseb_soura",
+   "fieldtype": "Select",
+   "label": "Registered in KSEB Soura",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "number_of_phase",
+   "fieldtype": "Select",
+   "label": "Number of Phase",
+   "options": "\nSingle Phase\nThree Phase"
+  },
+  {
+   "fieldname": "contact_number",
+   "fieldtype": "Data",
+   "label": "Contact Number"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer number",
+   "translatable": 1
+  },
+  {
+   "fieldname": "name_of_electrical_station",
+   "fieldtype": "Data",
+   "label": "Name of Electrical Section"
+  },
+  {
+   "fieldname": "required_pv_connection",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Required PV Capacity",
+   "translatable": 1
+  },
+  {
+   "fieldname": "roof_and_structure_details_section",
+   "fieldtype": "Section Break",
+   "label": "Roof and Structure Details"
+  },
+  {
+   "fieldname": "availability_of_south_facing_module_mounting_area",
+   "fieldtype": "Select",
+   "label": "Availability of South Facing Module Mounting Area",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "roof_type",
+   "fieldtype": "Select",
+   "label": "Roof Type",
+   "options": "\nRCC - Flat\nRCC - Slope\nSheet\nFlat\nTruss"
+  },
+  {
+   "description": "If Roof Type is RCC",
+   "fieldname": "parapet_wall_height",
+   "fieldtype": "Data",
+   "label": "Parapet Wall Height"
+  },
+  {
+   "fieldname": "column_break_21",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "building_height_or_number_of_floor",
+   "fieldtype": "Data",
+   "label": "Building Height or Number of Floor"
+  },
+  {
+   "description": "If Roof Type is Sheet",
+   "fieldname": "roof_angle_of_inclination",
+   "fieldtype": "Data",
+   "label": "Roof Angle of Inclination"
+  },
+  {
+   "description": "( LxW )",
+   "fieldname": "shade_free_area_available",
+   "fieldtype": "Data",
+   "label": "Shade Free area Available"
+  },
+  {
+   "fieldname": "cable_routing_details_section",
+   "fieldtype": "Section Break",
+   "label": "Cable Routing Details"
+  },
+  {
+   "fieldname": "cable_routing_confirmed_by_client",
+   "fieldtype": "Select",
+   "label": "Cable Routing confirmed by client",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "spv_module_to_ajb_cable_lenght",
+   "fieldtype": "Data",
+   "label": "SPV Module to AJB Cable Lenght"
+  },
+  {
+   "fieldname": "inverter_to_acdb_cable_length",
+   "fieldtype": "Data",
+   "label": "Inverter to ACDB Cable Length"
+  },
+  {
+   "fieldname": "column_break_29",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ajb_to_inverter_cable_length",
+   "fieldtype": "Data",
+   "label": "AJB to Inverter Cable Length"
+  },
+  {
+   "fieldname": "acdb_to_ex_lt_panel_or_db_cable_length",
+   "fieldtype": "Data",
+   "label": "ACDB to EX LT Panel or DB Cable Length"
+  },
+  {
+   "fieldname": "earthing_and_lightening_arrester_details_section",
+   "fieldtype": "Section Break",
+   "label": "Earthing and Lightening Arrester Details"
+  },
+  {
+   "fieldname": "earthing_cable_length",
+   "fieldtype": "Data",
+   "label": "Earthing Cable Length"
+  },
+  {
+   "fieldname": "earth_pit_location_confirmed_by_client",
+   "fieldtype": "Select",
+   "label": "Earth pit location confirmed by client",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_35",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "la_down_conductor_length",
+   "fieldtype": "Data",
+   "label": "LA Down Conductor Length"
+  },
+  {
+   "fieldname": "check_list_section",
+   "fieldtype": "Section Break",
+   "label": "Check List"
+  },
+  {
+   "fieldname": "additional_work_column",
+   "fieldtype": "Section Break",
+   "label": "Additional Work"
+  },
+  {
+   "fieldname": "details_of_additional_cables",
+   "fieldtype": "Small Text",
+   "label": "Details of Additional Cables"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "default": "user_fullname",
+   "fieldname": "survey_engineer",
+   "fieldtype": "Link",
+   "label": "Survey Engineer ",
+   "options": "User"
+  },
+  {
+   "fieldname": "checklist_table",
+   "fieldtype": "Table",
+   "label": "CheckList Table",
+   "options": "Site Survey CheckList"
+  },
+  {
+   "fieldname": "additional_items",
+   "fieldtype": "Table",
+   "label": "Additional Items",
+   "options": "Site Survey Item"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Upload Scanned copy of the Signed Consent Letter",
+   "fieldname": "upload_consent_letter",
+   "fieldtype": "Attach",
+   "label": "Upload Consent Letter"
+  },
+  {
+   "fieldname": "section_break_43",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "user",
+   "fieldname": "authorized_by",
+   "fieldtype": "Link",
+   "label": "Authorized By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_45",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "authorization_date",
+   "fieldtype": "Date",
+   "label": "Authorization Date",
+   "options": "Today"
+  },
+  {
+   "fieldname": "section_break_47",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "authorization_remark",
+   "fieldtype": "Text",
+   "label": "Authorization Remark"
+  },
+  {
+   "fieldname": "attachments_section",
+   "fieldtype": "Section Break",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "aadhar_front",
+   "fieldtype": "Attach",
+   "label": "Aadhar Front"
+  },
+  {
+   "fieldname": "passport_size_photo",
+   "fieldtype": "Attach",
+   "label": "Passport Size Photo"
+  },
+  {
+   "fieldname": "module_mounting_area",
+   "fieldtype": "Attach",
+   "label": "Module Mounting Area"
+  },
+  {
+   "fieldname": "earthpit_location",
+   "fieldtype": "Attach",
+   "label": "Earthpit Location"
+  },
+  {
+   "fieldname": "house_front_view",
+   "fieldtype": "Attach",
+   "label": "House Front View"
+  },
+  {
+   "fieldname": "column_break_41",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "aadhar_back",
+   "fieldtype": "Attach",
+   "label": "Aadhar Back "
+  },
+  {
+   "fieldname": "latest_kseb_bill",
+   "fieldtype": "Attach",
+   "label": "Latest KSEB Bill"
+  },
+  {
+   "fieldname": "inverter_mounting_area",
+   "fieldtype": "Attach",
+   "label": "Inverter Mounting Area"
+  },
+  {
+   "fieldname": "roof_photo",
+   "fieldtype": "Attach",
+   "label": "Roof Photo"
+  },
+  {
+   "fieldname": "circle_name",
+   "fieldtype": "Data",
+   "label": "Circle Name"
+  },
+  {
+   "fieldname": "additional_work",
+   "fieldtype": "Select",
+   "label": "Additional Work",
+   "options": "No\nYes"
+  },
+  {
+   "fieldname": "column_break_102",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-27 15:13:44.894826",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Site Survey",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

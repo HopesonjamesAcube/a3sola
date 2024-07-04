@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-03-18 12:22:42.949981",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "make",
+  "rating",
+  "inverter_serial_no"
+ ],
+ "fields": [
+  {
+   "fieldname": "rating",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Rating"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "inverter_serial_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Serial No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-06-17 12:40:59.616393",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Inverter Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,40 @@
+[
+ {
+  "abbreviation": "KSEBL",
+  "about": "a company incorporated under the under the Indian companies act 1956(central act 1 of 1956) having its registered office at vydyuthi Bhavanam,pattom, Thiruvananthapuram ",
+  "authorized_person": null,
+  "board_detls": "KSEB",
+  "commision": null,
+  "description": "KSEB Limited",
+  "docstatus": 0,
+  "doctype": "Electricity Board",
+  "full_name": "Kerala State Electricity Board Limited ",
+  "modified": "2023-08-31 13:39:53.560769",
+  "name": "KSEB",
+  "name_of_unique_id_for_customer": null,
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "person_contact_number": null,
+  "state": ""
+ },
+ {
+  "abbreviation": null,
+  "about": "The Ministry of New and Renewable Energy (MNRE) is the nodal Ministry of the Government of India for all matters relating to new and renewable energy.",
+  "authorized_person": null,
+  "board_detls": "MNRE",
+  "commision": null,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Electricity Board",
+  "full_name": "Ministry of New and Renewable Energy ",
+  "modified": "2023-08-31 13:40:03.473803",
+  "name": "MNRE",
+  "name_of_unique_id_for_customer": null,
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "person_contact_number": null,
+  "state": ""
+ }
+]

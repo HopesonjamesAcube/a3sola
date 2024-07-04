@@ -1,0 +1,1430 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:12:30.841946",
+  "name": "Admin Users",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Admin Users",
+  "roles": [
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Academics User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accountant"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Analytics"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Assistant Executive"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Assistant Executives"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Blogger"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Coordinator"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Customer"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Dashboard Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Dealer"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Education Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee Self Service"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Expense Approver"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Fleet Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Fulfillment User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Instructor"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Interviewer"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Item Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Knowledge Base Contributor"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Knowledge Base Editor"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Leave Approver"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "LMS User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Loan Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Main User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Maintenance Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Maintenance User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Newsletter Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Projects Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Projects User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Master Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Quality Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Report Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Master Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Script Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Student"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Supervisors"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Supplier"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Support Team"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "System Manager"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Technician"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Telecaller"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Translator"
+   },
+   {
+    "parent": "Admin Users",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Website Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:14:03.296007",
+  "name": "Subb-Administrator",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Sub-Administrator",
+  "roles": [
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Academics User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accountant"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Analytics"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Assistant Executive"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Assistant Executives"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Blogger"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Coordinator"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Customer"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Dashboard Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Dealer"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Education Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employee Self Service"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Expense Approver"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Fleet Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Fulfillment User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Inbox User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Instructor"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Interviewer"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Item Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Knowledge Base Contributor"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Knowledge Base Editor"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Leave Approver"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "LMS User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Loan Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Main User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Maintenance Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Maintenance User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Manufacturing User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Newsletter Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Prepared Report User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Projects Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Projects User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Master Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Quality Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Report Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Master Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Script Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Student"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Supervisors"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Supplier"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Support Team"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Technician"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Telecaller"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Translator"
+   },
+   {
+    "parent": "Subb-Administrator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Website Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:16:41.599154",
+  "name": "Accounts Staff",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Accounts Staff",
+  "roles": [
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Master Manager"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Manager"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Master Manager"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accountant"
+   },
+   {
+    "parent": "Accounts Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:16:34.945216",
+  "name": "Accounts Manager",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Accounts Manager",
+  "roles": [
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts User"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Auditor"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Master Manager"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Manager"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Master Manager"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accountant"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "Accounts Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:17:21.663526",
+  "name": "Telecaller",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Telecaller",
+  "roles": [
+   {
+    "parent": "Telecaller",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Telecaller"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:17:58.971883",
+  "name": "Project Cordinator",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Project Cordinator",
+  "roles": [
+   {
+    "parent": "Project Cordinator",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Coordinator"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 15:06:01.016735",
+  "name": "Documentation Employees",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Documentation Employees",
+  "roles": [
+   {
+    "parent": "Documentation Employees",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Documentation Employees",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Assistant Executives"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:22:15.523242",
+  "name": "Stock Manager",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Stock Manager",
+  "roles": [
+   {
+    "parent": "Stock Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Stock Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   },
+   {
+    "parent": "Stock Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Stock Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:22:10.358452",
+  "name": "Stock House Keeper",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Stock House Keeper",
+  "roles": [
+   {
+    "parent": "Stock House Keeper",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Stock House Keeper",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   },
+   {
+    "parent": "Stock House Keeper",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:35:17.359691",
+  "name": "Sales Staff",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Sales Staff",
+  "roles": [
+   {
+    "parent": "Sales Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Sales Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Sales Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Sales Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Sales Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Sales Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:35:08.964304",
+  "name": "Sales Manager",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Sales Manager",
+  "roles": [
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Manager"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales Master Manager"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Sales Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:35:27.180397",
+  "name": "Purchase Staff",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Purchase Staff",
+  "roles": [
+   {
+    "parent": "Purchase Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Purchase Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Purchase Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Purchase Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Purchase Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Purchase Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:24:59.782394",
+  "name": "Purchase Manager",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Purchase Manager",
+  "roles": [
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock User"
+   },
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Store"
+   },
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Stock Manager"
+   },
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Employees"
+   },
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase User"
+   },
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Master Manager"
+   },
+   {
+    "parent": "Purchase Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Purchase Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:25:58.380639",
+  "name": "HR",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "HR",
+  "roles": [
+   {
+    "parent": "HR",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR User"
+   },
+   {
+    "parent": "HR",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:27:20.002964",
+  "name": "Payroll Staff",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Payroll Staff",
+  "roles": [
+   {
+    "parent": "Payroll Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR User"
+   },
+   {
+    "parent": "Payroll Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   },
+   {
+    "parent": "Payroll Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR Manager"
+   },
+   {
+    "parent": "Payroll Staff",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:28:11.342265",
+  "name": "HR Manager",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "HR Manager",
+  "roles": [
+   {
+    "parent": "HR Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR User"
+   },
+   {
+    "parent": "HR Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   },
+   {
+    "parent": "HR Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "HR Manager"
+   },
+   {
+    "parent": "HR Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Accounts Manager"
+   },
+   {
+    "parent": "HR Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Expense Approver"
+   },
+   {
+    "parent": "HR Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Leave Approver"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:35:37.854267",
+  "name": "Project Manager",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Project Manager",
+  "roles": [
+   {
+    "parent": "Project Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Projects Manager"
+   },
+   {
+    "parent": "Project Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Projects User"
+   },
+   {
+    "parent": "Project Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Main User"
+   },
+   {
+    "parent": "Project Manager",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Basic"
+   }
+  ]
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Role Profile",
+  "modified": "2023-09-11 14:31:58.321168",
+  "name": "Site Engineers",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "role_profile": "Site Engineers",
+  "roles": [
+   {
+    "parent": "Site Engineers",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Coordinator"
+   },
+   {
+    "parent": "Site Engineers",
+    "parentfield": "roles",
+    "parenttype": "Role Profile",
+    "role": "Sales User"
+   }
+  ]
+ }
+]

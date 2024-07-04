@@ -1,0 +1,558 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:SR-{customer_name}-{####}",
+ "creation": "2022-03-18 12:36:29.556769",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "customer_name",
+  "mobile",
+  "email_id",
+  "contact_person",
+  "column_break_5",
+  "customer_id",
+  "address",
+  "quotation_id",
+  "section_break_8",
+  "date",
+  "installed_by",
+  "invoice_no",
+  "service_at",
+  "nature_of_complaint_reported",
+  "column_break_14",
+  "ref_no",
+  "supplied_by",
+  "invoice_date",
+  "type_of_call",
+  "system_details_section",
+  "capacity",
+  "make",
+  "sl_no",
+  "column_break_23",
+  "loading_capacity",
+  "model",
+  "battery_details_section",
+  "capacity_or_ah",
+  "battery_model",
+  "no_of_battery_bank",
+  "column_break_30",
+  "battery_make",
+  "qty",
+  "spv_details_section",
+  "module_capacity",
+  "voc",
+  "watts",
+  "column_break_37",
+  "spv_make",
+  "total_nos",
+  "no_of_strings",
+  "section_break_41",
+  "defects_found_on_inspection",
+  "column_break_43",
+  "action_taken",
+  "estimate_section",
+  "service_charge",
+  "amc_charge",
+  "column_break_48",
+  "cost_of_spares",
+  "total",
+  "section_break_51",
+  "status_after_service",
+  "input_voltage_section",
+  "r_n",
+  "b_n",
+  "column_break_56",
+  "y_n",
+  "e_n",
+  "output_voltage_section",
+  "r_n1",
+  "b_n1",
+  "column_break_62",
+  "y_n1",
+  "e_n1",
+  "section_break_65",
+  "spv_string",
+  "section_break_67",
+  "mppt_details",
+  "battery_checkup_details_section",
+  "battery_voltage",
+  "battery_water_level",
+  "battery_or_panel_serial_no",
+  "column_break_73",
+  "charging_current",
+  "cell_gravity",
+  "section_break_76",
+  "time_in",
+  "customer_feedback",
+  "column_break_80",
+  "time_out",
+  "customer_suggestions",
+  "section_break_83",
+  "engineers"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Data",
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID"
+  },
+  {
+   "fieldname": "contact_person",
+   "fieldtype": "Data",
+   "label": "Contact Person"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_id",
+   "fieldtype": "Data",
+   "label": "Customer ID"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "installed_by",
+   "fieldtype": "Select",
+   "label": "Installed By",
+   "options": "Soura\nAMC/O&M"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Invoice No",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "service_at",
+   "fieldtype": "Select",
+   "label": "Service at",
+   "options": "In House\nDealer\nOn Site"
+  },
+  {
+   "fieldname": "nature_of_complaint_reported",
+   "fieldtype": "Data",
+   "label": "Nature of Complaint Reported"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ref_no",
+   "fieldtype": "Data",
+   "label": "Ref No"
+  },
+  {
+   "fieldname": "supplied_by",
+   "fieldtype": "Data",
+   "label": "Supplied By"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "default": "Installation",
+   "fieldname": "type_of_call",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type of Call",
+   "options": "Installation\nOWP\nWP\nAMC\nFree Check Up"
+  },
+  {
+   "fieldname": "system_details_section",
+   "fieldtype": "Section Break",
+   "label": "System Details"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "sl_no",
+   "fieldtype": "Data",
+   "label": "Sl No"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "loading_capacity",
+   "fieldtype": "Data",
+   "label": "Loading Capacity"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "battery_details_section",
+   "fieldtype": "Section Break",
+   "label": "Battery Details"
+  },
+  {
+   "fieldname": "capacity_or_ah",
+   "fieldtype": "Data",
+   "label": "Capacity or AH"
+  },
+  {
+   "fieldname": "battery_model",
+   "fieldtype": "Data",
+   "label": "Battery Model"
+  },
+  {
+   "fieldname": "no_of_battery_bank",
+   "fieldtype": "Data",
+   "label": "No of Battery Bank"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "battery_make",
+   "fieldtype": "Data",
+   "label": "Battery Make"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "spv_details_section",
+   "fieldtype": "Section Break",
+   "label": "SPV Details"
+  },
+  {
+   "fieldname": "module_capacity",
+   "fieldtype": "Data",
+   "label": "Module Capacity"
+  },
+  {
+   "fieldname": "voc",
+   "fieldtype": "Data",
+   "label": "VOC"
+  },
+  {
+   "fieldname": "watts",
+   "fieldtype": "Data",
+   "label": "Watts"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "spv_make",
+   "fieldtype": "Data",
+   "label": "SPV Make"
+  },
+  {
+   "fieldname": "total_nos",
+   "fieldtype": "Data",
+   "label": "Total Nos"
+  },
+  {
+   "fieldname": "no_of_strings",
+   "fieldtype": "Data",
+   "label": "No of Strings"
+  },
+  {
+   "fieldname": "section_break_41",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "defects_found_on_inspection",
+   "fieldtype": "Small Text",
+   "label": "Defects found on Inspection"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "action_taken",
+   "fieldtype": "Small Text",
+   "label": "Action Taken"
+  },
+  {
+   "fieldname": "estimate_section",
+   "fieldtype": "Section Break",
+   "label": "Estimate"
+  },
+  {
+   "fieldname": "service_charge",
+   "fieldtype": "Currency",
+   "label": "Service Charge"
+  },
+  {
+   "description": "1 Year",
+   "fieldname": "amc_charge",
+   "fieldtype": "Data",
+   "label": "AMC Charge"
+  },
+  {
+   "fieldname": "column_break_48",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cost_of_spares",
+   "fieldtype": "Currency",
+   "label": "Cost of Spares"
+  },
+  {
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "fieldname": "section_break_51",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "status_after_service",
+   "fieldtype": "Select",
+   "label": "Status After Service",
+   "options": "Completed,\nIn Complete\nStandby Given\nPCB/INV Taken"
+  },
+  {
+   "fieldname": "input_voltage_section",
+   "fieldtype": "Section Break",
+   "label": "Input Voltage"
+  },
+  {
+   "fieldname": "r_n",
+   "fieldtype": "Data",
+   "label": "R-N"
+  },
+  {
+   "fieldname": "b_n",
+   "fieldtype": "Data",
+   "label": "B-N"
+  },
+  {
+   "fieldname": "column_break_56",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "y_n",
+   "fieldtype": "Data",
+   "label": "Y-N"
+  },
+  {
+   "fieldname": "e_n",
+   "fieldtype": "Data",
+   "label": "E-N"
+  },
+  {
+   "fieldname": "output_voltage_section",
+   "fieldtype": "Section Break",
+   "label": "Output Voltage"
+  },
+  {
+   "fieldname": "r_n1",
+   "fieldtype": "Data",
+   "label": "R-N (Out)"
+  },
+  {
+   "fieldname": "b_n1",
+   "fieldtype": "Data",
+   "label": "B-N (Out) "
+  },
+  {
+   "fieldname": "column_break_62",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "y_n1",
+   "fieldtype": "Data",
+   "label": "Y-N (Out)"
+  },
+  {
+   "fieldname": "e_n1",
+   "fieldtype": "Data",
+   "label": "E-N (Out)"
+  },
+  {
+   "fieldname": "section_break_65",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "spv_string",
+   "fieldtype": "Table",
+   "label": "SPV String",
+   "options": "SPV String"
+  },
+  {
+   "fieldname": "section_break_67",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mppt_details",
+   "fieldtype": "Table",
+   "label": "MPPT Details",
+   "options": "MPPT Details"
+  },
+  {
+   "fieldname": "battery_checkup_details_section",
+   "fieldtype": "Section Break",
+   "label": "Battery Checkup Details"
+  },
+  {
+   "fieldname": "battery_voltage",
+   "fieldtype": "Data",
+   "label": "Battery Voltage"
+  },
+  {
+   "fieldname": "battery_water_level",
+   "fieldtype": "Data",
+   "label": "Battery Water Level"
+  },
+  {
+   "fieldname": "battery_or_panel_serial_no",
+   "fieldtype": "Data",
+   "label": "Battery or Panel Serial No"
+  },
+  {
+   "fieldname": "column_break_73",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "charging_current",
+   "fieldtype": "Data",
+   "label": "Charging Current"
+  },
+  {
+   "fieldname": "cell_gravity",
+   "fieldtype": "Data",
+   "label": "Cell Gravity"
+  },
+  {
+   "fieldname": "section_break_76",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "time_in",
+   "fieldtype": "Data",
+   "label": "Time In"
+  },
+  {
+   "fieldname": "customer_feedback",
+   "fieldtype": "Small Text",
+   "label": "Customer Feedback"
+  },
+  {
+   "fieldname": "column_break_80",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "time_out",
+   "fieldtype": "Data",
+   "label": "Time Out"
+  },
+  {
+   "fieldname": "customer_suggestions",
+   "fieldtype": "Small Text",
+   "label": "Customer Suggestions"
+  },
+  {
+   "fieldname": "section_break_83",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "engineers",
+   "fieldtype": "Table",
+   "label": "Engineers",
+   "options": "Service Report Engineers"
+  },
+  {
+   "fieldname": "quotation_id",
+   "fieldtype": "Link",
+   "label": "Quotation ID",
+   "options": "Quotation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-14 12:30:27.400070",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Service Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

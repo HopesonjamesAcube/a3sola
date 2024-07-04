@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-20 11:28:02.814428",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date_and_time",
+  "status",
+  "feedback",
+  "userlink",
+  "user"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Status",
+   "options": "\nFresh Lead\nDo Not Contact\nCall Back\nInvalid Number\nRejected\nNot Interested\nBusy\nNo Response\nWrong Number\nReplied\nOpportunity\nInterested"
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Feedback"
+  },
+  {
+   "fieldname": "userlink",
+   "fieldtype": "Link",
+   "label": "Userlink",
+   "options": "User"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-23 21:55:28.794136",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Lead Tracking",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

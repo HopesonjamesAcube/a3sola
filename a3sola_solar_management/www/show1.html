@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="keywords" content="#">
+    <meta name="description" content="#">
+
+    <title>{%if prodetails%}{{prodetails['company']}} -{{prodetails['name']}}  {% endif %}</title>
+    {% if fav %}
+    <link rel="icon" type="image/x-icon" href="{{fav}}">
+    {% endif %}
+    <!-- Fav and touch icons -->
+
+    <!-- Bootstrap -->
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link href="asset/css/font-awesome.css" rel="stylesheet">
+    <!-- Flaticons -->
+    <link href="asset/css/font/flaticon.css" rel="stylesheet">
+    <link href="asset/font/flaticon.css" rel="stylesheet">
+    <!-- Slick Slider -->
+    <link href="asset/css/slick.css" rel="stylesheet">
+    <!-- Range Slider -->
+    <link href="asset/css/ion.rangeSlider.min.css" rel="stylesheet">
+    <!-- Datepicker -->
+    <link href="asset/css/datepicker.css" rel="stylesheet">
+    <!-- magnific popup -->
+    <link href="asset/css/magnific-popup.css" rel="stylesheet">
+    <!-- Nice Select -->
+    <link href="asset/css/nice-select.css" rel="stylesheet">
+    <!-- Animate -->
+    <link href="asset/css/animate.css" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link href="asset/css/style.css" rel="stylesheet">
+    <!-- Custom Responsive -->
+    <link href="asset/css/responsive.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700&amp;display=swap" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- place -->
+
+    <style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 0px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  border-radius: 15px;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #008CBA;
+  border-radius: 15px;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #f44336;
+  border-radius: 15px;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+
+a[href^="mailto"]::before {
+    content: "📧 ";
+}
+
+a[href^="tel"]::before {
+    content: "📞 ";
+}
+
+a[href^="loc"]::before {
+    content: "📍 ";
+}
+
+
+
+</style>
+</head>
+
+<script>
+
+    function test() {
+    const note = document.querySelector('.note');
+
+    note.style.fontFamily = document.getElementById('fon').value;
+
+              }
+</script>
+
+
+<body onload="test()" >
+
+    <!-- Start Main Body -->
+    <div class="main-body" style="font-family:{{font}}">
+
+        <!-- End Subheader -->
+        <!-- Start User Dashboard -->
+{%if font%}
+        <input id="fon" type="hidden" name="font" value="{{font}}">
+{% else %}
+      <input id="fon" type="hidden" name="font" value="Times New Roman">
+{% endif %}
+
+        <section class="section-padding user-dashboard-sec bg-gray" style="background-color:  {{color2}}">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="dashboard-first-sec">
+                            <div class="row">
+                                <div class="col-lg-6 align-self-center">
+                                    <div class="left-side mb-md-80">
+                                      <!-- <img src={{logo}} style="width:90px;height:80px" > -->
+                                        <h3 class="note"><a href="#" class="text-custom-black" target="_blank">{%if prodetails%}{{prodetails['company']}}  {% endif %}</a></h3>
+                                        <h6 class="text-custom-black" style="font-size:13px">{{address}} <br><address>
+  <a href="mailto:{{email}}">{{email}}</a><br>
+  <a href="tel:{{phone}}">{{phone}}</a>
+</address>
+</h6>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="right-side">
+                                        <ul class="custom">
+                                          {% if menu %}
+                                          {% for i in menu %}
+                                          {% if i.enabled |int==1 %}
+                                            <li>
+                                                <div class="icon-box">
+                                                    <!-- <img src="asset/images/more.png" alt="icon"> -->
+                                                </div>
+                                              <a href="{{i.route}}" class="btn btn-primary stretched-link" style="background-color:{{color}}">{{i.title}}</a>
+                                            </li>
+                                            {% endif %}
+                                            {% endfor %}
+
+                                            {% endif %}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-padding user-dashboard-sec">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="collapse show user-loan-profile" id="user-profile">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="welcome-box mb-md-40">
+
+                                        <div class="welcome-text">
+                                            <h4 class="text-custom-black" style="font-family:{{font}};font-weight: bold;">Welcome {%if prodetails %} {{prodetails['customer']}}  {% endif %}</h4>
+                                            <p class="text-custom-black" style="font-family:{{font}};font-size: 16px">{% if add %} {%if add.address_line1%}{{add.address_line1}}{% endif %}{%if add.address_line2%}, {{add.address_line2}}{% endif %} <br>  {%if add.city%}{{add.city}}{% endif %}{%if add.state%}, {{add.state}} {% endif %} <br>{% if add.pincode %}Pin: {{add.pincode}}{%endif%} {% endif %}</p>
+                                            <a href="#" class="text-custom-blue fw-600 fs-14"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-sm-4" >
+                                    <div class="loan-box-wrap" style="background-color: rgb(0 123 255 / 11%)">
+                                        <div class="content">
+                                             <h2 class="text-custom-black fw-600" style="margin-left: -30px;font-family:{{font}};">{% if prodetails['percent_complete'] |int ==100 %}<h2 class="text-custom-black fw-600" style="margin-left: -30px;font-family:{{font}};">100% </h2>{% elif date%} <h2 class="text-custom-black fw-600" style="font-family:{{font}};">{% if date >0 %}{{date}}{% endif %}  {% endif %}</h2>
+
+
+                                            <p class="no-margin text-custom-black" style="font-family:{{font}}">{% if prodetails['percent_complete'] |int ==100 %} Completed{% elif date%}
+                                                                                      {% if date >0 %}
+                                                                                          Days To Complete
+                                                                                      {%elif per |int==100 %}
+                                                                                            Completed
+                                                                                      {% else %}
+                                                                                        Over Due
+                                                                                      {%endif%}
+                                                                                  {% endif %}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-sm-8">
+                                    <div class="loan-box-wrap justify-content-between" style="background-color: rgb(0 123 255 / 11%)";>
+                                        <div class="content">
+                                            <h2 class="text-custom-black fw-600">
+
+
+                                                <span style='font-size:30px;' style="font-family:{{font}}">{%if price%} &#8377; &nbsp;&nbsp;{{price}}{% else %} Quotation Not confirmed {% endif %} </span></h2><h6 style="font-family:{{font}}"><br>{%if price%}{{words}}{%endif%}</h6>
+                                            <p class="no-margin text-custom-black" style="font-family:{{font}}">{%if price%} Total Cost {% endif %}</p>
+                                        </div>
+                                        <!-- <div class="content-infor">
+                                          <ul class="custom">
+                                            <li>Last Payment on <a href="#"></a>24th April 20</li>
+                                            <li> <a href="#">View Monthly Details</a> </li>
+                                            <li> <a href="#">View Yearly Details</a> </li>
+                                          </ul>
+                                        </div> -->
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-12"> -->
+                        <!-- <div class="dashboard-second-sec" data-toggle="collapse" data-target="#loan-progress">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 align-self-center">
+                                    <div class="heading-text">
+                                        <h4 class="text-custom-black no-margin">LOAN PROGRESS CHARTS</h4>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-md-6">
+                                    <div class="right-side">
+                                        <div class="pie-chart-box">
+                                            <div class="active-border activeBorder">
+                                                <div class="circle circlestyle">
+                                                    <span class="prec 282 precs">0%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="line-chart-box">
+                                            <div class="graph">
+                                                <canvas id="small-graph"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="dashboard-second-sec-large collapse show" id="loan-progress">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <h5 class="text-custom-black fw-600 text-center mb-xl-40">Repayment Progress</h5>
+                                    <div class="left-side mb-md-40">
+                                        <div class="pie-chart-area">
+                                            <div class="active-border activeBorder">
+                                                <div class="circle circlestyle-big">
+                                                    <span class="prec 282 precs">0%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="pie-chart-area-text">
+                                            <div class="text-wraper mb-xl-20">
+                                                <label class="fw-600 fs-16 text-custom-black">$ 10,000</label>
+                                                <p class="no-margin fw-500 text-custom-black">Outstanding balance</p>
+                                            </div>
+                                            <div class="text-wraper">
+                                                <label class="fw-600 fs-16 text-custom-black">$ 1,257</label>
+                                                <p class="no-margin fw-500 text-custom-black">Paid to date</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="col-lg-7">
+                                    <h5 class="text-custom-black fw-600 text-center mb-xl-40">Repayment Tracking</h5>
+                                    <div class="right-side">
+                                        <div class="graph mb-xs-40">
+                                            <canvas id="big-graph"></canvas>
+                                        </div>
+                                        <div class="graph-text">
+                                            <div class="text-wraper mb-xl-20">
+                                                <label class="fw-600 fs-16 text-custom-black">Average Payment</label>
+                                                <p class="no-margin fw-500 text-custom-black">$ 57,975</p>
+                                            </div>
+                                            <div class="text-wraper">
+                                                <label class="fw-600 fs-16 text-custom-black">Estimated time to repay</label>
+                                                <p class="no-margin fw-500 text-custom-black">1 month(s)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-12">
+                        <div class="dashboard-third-sec">
+                            <div class="row">
+
+
+
+
+                                <div class="col-lg-8">
+                                    <div class="tabs-sec">
+                                        <ul class="custom nav nav-tabs mb-xl-30">
+                                            <li class="nav-item">
+                                                <a href="#dailyactivity" class="nav-link active" data-toggle="tab" style="font-family:{{font}}">Tasks</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#daysummary" class="nav-link" data-toggle="tab" style="font-family:{{font}}"> Invoices</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div class="tab-pane fade show active" id="dailyactivity">
+                                                <div class="sch-payment mb-xl-30">
+                                                    <h4 class="text-custom-black" style="font-family:{{font}}">Completed Tasks </h4>
+                                                    {% if protask %}
+                                                    {% for task in protask %}
+                                                      {% set t=frappe.get_doc('Task',task['name']) %}
+
+                                                     <div class="sch-payment-box">
+                                                        <a href="#" class="payment-activity-box border-0">
+                                                            <div class="left-side">
+                                                                <div class="date-box">
+                                                                    <p class="month no-margin" style="font-family:{{font}};font-size: 19px;width:200px">{{t.subject}}<br><label class="button button1" style="width:100px">{{t.status}}</label></p>
+                                                                </div>
+
+                                                                <div class="payment-type-box">
+
+                                                                    <p class="text-custom-blue mb-1 fw-600"></p>
+                                                                      <!-- <p class="button button1">{{t.status}}</p> -->
+                                                                </div>
+
+                                                            </div>
+
+                                                            <div class="right-side">
+                                                                <div class="price-box">
+
+                                                                    <p class="mb-1 fw-600 text-custom-black" style="font-family:{{font}}">{% if t.status=="Completed" %} {%if t.completed_on%}{{t.completed_on.strftime('%d-%m-%Y')}} {%endif%}   {%endif%}</p>
+                                                                    <p class="no-margin text-light-grey" style="font-family:{{font}}">{% if t.status=="Completed" %} Completed On  {% endif %}</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                    {% endfor %}
+
+
+                                                    {%else%}
+                                                    <div class="sch-payment-box">
+                                                       <a href="#" class="payment-activity-box border-0">
+                                                           <div class="left-side">
+                                                               <div class="date-box">
+                                                                   <p class="month no-margin" style="font-family:{{font}};color:orange;font-size: 19px">No Completed Tasks<span></span></p>
+                                                               </div>
+                                                               <div class="payment-type-box">
+                                                                   <p class="text-custom-blue mb-1 fw-600"></p>
+                                                                   <p class="no-margin fw-600" style="font-family:{{font}}"></p>
+                                                               </div>
+                                                           </div>
+
+                                                           <div class="right-side">
+                                                               <div class="price-box">
+
+                                                                   <p class="mb-1 fw-600 text-custom-black" style="font-family:{{font}}"></p>
+                                                                   <p class="no-margin text-light-grey" style="font-family:{{font}}"></p>
+                                                               </div>
+                                                           </div>
+                                                       </a>
+                                                   </div>
+
+                                                    {% endif %}
+
+
+                                                </div>
+
+                                                <div class="sch-payment mb-xl-30">
+                                                    <h4 class="text-custom-black" style="font-family:{{font}}">Pending Tasks </h4>
+                                                    {% if ncprotasks %}
+                                                    {% for task in ncprotasks %}
+                                                      {% set t=frappe.get_doc('Task',task['name']) %}
+
+                                                     <div class="sch-payment-box">
+                                                        <a href="#" class="payment-activity-box border-0">
+                                                            <div class="left-side">
+                                                                <div class="date-box">
+                                                                    <p class="month no-margin" style="font-family:{{font}};font-size: 19px;width:200px">{{t.subject}}<br><label class="button button3" style="width:100px">{{t.status}}</label></p>
+                                                                </div>
+                                                                <div class="payment-type-box">
+
+                                                                    <p class="text-custom-blue mb-1 fw-600"></p>
+                                                                      <!-- <p class="button button3"></p> -->
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="right-side">
+                                                                <div class="price-box">
+
+                                                                    <p class="mb-1 fw-600 text-custom-black" style="font-family:{{font}}">{%if t.exp_end_date%} {{t.exp_end_date.strftime('%d-%m-%Y') }} {%endif%}</p>
+                                                                    <p class="no-margin text-light-grey" style="font-family:{{font}}"> Expected End Date</p>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                    </div>
+
+                                                    {% endfor %}
+
+                                                    {%else%}
+                                                    <div class="sch-payment-box">
+                                                       <a href="#" class="payment-activity-box border-0">
+                                                           <div class="left-side">
+                                                               <div class="date-box">
+                                                                   <p class="month no-margin" style="font-family:{{font}};color:green;font-size: 19px">No Pending Tasks<span></span></p>
+                                                               </div>
+                                                               <div class="payment-type-box">
+                                                                   <p class="text-custom-blue mb-1 fw-600"></p>
+                                                                   <p class="no-margin fw-600" style="font-family:{{font}}"></p>
+                                                               </div>
+                                                           </div>
+
+                                                           <div class="right-side">
+                                                               <div class="price-box">
+
+                                                                   <p class="mb-1 fw-600 text-custom-black" style="font-family:{{font}}"></p>
+                                                                   <p class="no-margin text-light-grey" style="font-family:{{font}}"></p>
+                                                               </div>
+                                                           </div>
+                                                       </a>
+                                                   </div>
+
+                                                    {% endif %}
+
+
+
+
+
+                                                </div>
+
+
+                                                <!-- <div class="recent-activity">
+                                                    <h4 class="text-custom-black">Tasks</h4>
+                                                </div> -->
+
+                                                <!-- <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Eb Information <span></span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Completed</p>
+                                                            <p class="no-margin fw-600"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="center-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">02-02-2021</p>
+                                                            <p class="no-margin text-light-grey">Expected End Date</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Site Survey <span></span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Completed</p>
+                                                            <p class="no-margin fw-600"></p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="center-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">02-02-2021</p>
+                                                            <p class="no-margin text-light-grey">Expected End Date</p>
+                                                        </div>
+                                                    </div>
+                                                </a> -->
+                                                <!-- <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a> -->
+                                                <!-- <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>06</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a> -->
+                                                <!-- <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>10</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a> -->
+                                                <!-- <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a> -->
+                                                <!-- <div class="all-act">
+                                                    <a href="#" class="text-right fw-600">View all activity</a>
+                                                </div> -->
+                                            </div>
+                                            <div class="tab-pane fade" id="daysummary">
+                                                <div class="sch-payment mb-xl-30">
+                                                    <h4 class="text-custom-black" style="font-family:{{font}}">Invoices</h4>
+                                                    <div class="sch-payment-box">
+                                                        <a href="#" class="payment-activity-box border-0">
+                                                            <div class="left-side">
+
+                                                                <div class="date-box">
+                                                                    <p class="month no-margin" style="font-family:{{font}};font-size: 19px;width:200px">{% if sales_invoice %} Sales Invoice {%else%} No Invoices {% endif %}<br>{% if sales_invoice %}<label class="button button1" style="width:100px"> {{sales_invoice.status}} </label>{% endif %}</p>
+                                                                </div>
+                                                                <div class="payment-type-box">
+                                                                    <p class="text-custom-blue mb-1 fw-600"></p>
+                                                                    <!-- <p class="no-margin fw-600" style="font-family:{{font}}"> {% if sales_invoice %} {{sales_invoice.status}} {% endif %}</p> -->
+                                                                </div>
+                                                            </div>
+                                                            <div class="center-side">
+                                                                <div class="price-box">
+                                                                    <p class="mb-1 fw-600 text-custom-black" style="font-family:{{font}}">{% if sales_invoice %} {{sales_invoice.name}} {% endif %}</p>
+                                                                    <p class="no-margin text-light-grey" style="font-family:{{font}}">{% if sales_invoice %} Invoice Number{% endif %}</p>
+                                                                </div>
+                                                            </div>
+
+                                                        </a>
+                                                    </div>
+
+                                                </div>
+
+                                                <!-- <div class="recent-activity">
+                                                    <h4 class="text-custom-black">Recent Activity</h4>
+                                                </div> -->
+
+                                                <!-- <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <a href="#" class="payment-activity-box">
+                                                    <div class="left-side">
+                                                        <div class="date-box">
+                                                            <p class="month no-margin">Mar <span>05</span></p>
+                                                        </div>
+                                                        <div class="payment-type-box">
+                                                            <p class="text-custom-blue mb-1 fw-600">Auto-repayment</p>
+                                                            <p class="no-margin fw-600">Loan balance</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right-side">
+                                                        <div class="price-box">
+                                                            <p class="mb-1 fw-600 text-custom-black">$ 1,257.00</p>
+                                                            <p class="no-margin text-light-grey">1 Completed</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <div class="all-act">
+                                                    <a href="#" class="text-right fw-600">View all activity</a>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                                <aside class="col-lg-4 mb-md-80" ;>
+                                    <div class="widget-box mb-xl-30" style="
+                                    border: #007bff solid 2px;padding-top: 30px;padding-left: 50px;
+                                    border-radius: 20px;
+                                    background-color:rgb(0 123 255 / 11%)" >
+                                        <h4 class="text-custom-black" style="font-family:{{font}};font-weight: bold;">Project Details</h4>
+                                        <div class="content-wrap">
+                                            <div class="text-wraper mb-xl-10">
+                                                <p class="fw-600 fs-16 text-custom-black"  style="font-family:{{font}}">Your Product:
+                                                <label  class="no-margin fw-500" style="font-family:{{font}}">  {%if prodetails %} {{prodetails['item_name']}}{% endif %} </label></p>
+                                                <!-- <p class="no-margin fw-500">Outstanding balance</p> -->
+                                            </div>
+                                            <div class="text-wraper mb-xl-10">  <p class="fw-600 fs-16 text-custom-black" style="font-family:{{font}}" >Progress:
+                                                <label class="no-margin fw-500" style="color:green" style="font-family:{{font}}">  {%if prodetails %}  {{prodetails['percent_complete']}} % Completed {% endif %}</label></p>
+                                                <!-- <p class="no-margin fw-500">Paid to date</p> -->
+                                            </div>
+                                            <!-- <button type="submit" class="btn-first btn-submit text-custom-blue">Make Payment</button> -->
+                                        </div>
+
+
+
+                                            <div class="text-wraper mb-xl-10"><p class="fw-600 fs-16 text-custom-black" style="font-family:{{font}}" >{%if prodetails['scheme_name'] %} Scheme:
+                                                <label class="no-margin fw-500" style="font-family:{{font}}">  {{prodetails['scheme_name']}}</label> {% endif %}</p>
+
+                                            </div>
+                                            <div class="text-wraper mb-xl-10">  <p class="fw-600 fs-16 text-custom-black" style="font-family:{{font}}">{%if prodetails['board_name'] %} Provided By:
+                                                <label class="no-margin fw-500" style="font-family:{{font}}"> {{prodetails['board_name']}}</label> {% endif %}</p>
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    <div class="widget-box mb-xl-30" style="
+                                    border: #007bff solid 2px;
+                                    border-radius: 20px;padding-top: 30px;padding-left: 50px;
+                                    background-color: rgb(0 123 255 / 11%)" >
+                                        <h4 class="text-custom-black">Have Questions?</h4>
+                                        <div class="content-wrap">
+                                            <div class="text-wraper mb-xl-20">
+                                                <label class="fw-600 fs-14 text-custom-black d-block">Call us and we'll be happy to help.</label>
+                                                <a href="#" class="fw-500 fs-14 text-custom-black">{%if ctrack.contact_phone%} Ph: {{ctrack.contact_phone}} {% endif %} <br>{%if ctrack.contact_email%}Email: {{ctrack.contact_email}} {% endif %} </a>
+                                            </div>
+                                            <div class="text-wraper">
+                                                <label class="fw-600 fs-14 text-custom-black d-block">{%if stime %}{{stime}}{% endif %} to  {%if etime %} {{etime}} {% endif %} </label>
+                                                <a href="#" class="fw-500 fs-14 text-custom-black">{%if ctrack.wd_start %}{{ctrack.wd_start}} to {{ctrack.wd_end}} {% endif %}</a>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+        <!-- End User Dashboard -->
+        <!-- Start Footer -->
+        <footer class="bg-black section-padding footer" style="background-color:{{color}};">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box mb-md-80">
+                            <div class="footer-heading">
+                                <h4 class="text-custom-white no-margin">Useful Links</h4>
+                            </div>
+                            <ul class="custom links">
+                                <li> <a href="about.html" class="text-custom-white">About Us</a>
+                                </li>
+                                <li> <a href="service.html" class="text-custom-white">Service</a>
+                                </li>
+                                <li> <a href="blog.html" class="text-custom-white">Blog</a>
+                                </li>
+                                <li> <a href="team.html" class="text-custom-white">Team</a>
+                                </li>
+                                <li> <a href="contact.html" class="text-custom-white">Contact Us</a>
+                                </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-12 col-sm-12">
+                        <div class="footer-box mb-md-80">
+                            <div class="footer-heading">
+                              {% if terms %}  {{terms}} {% endif %}
+
+                            </div>
+                            </div>
+                            </div>
+
+                    <!-- <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box mb-md-80">
+                            <div class="footer-heading">
+                                <h4 class="text-custom-white no-margin">Featured Post</h4>
+                            </div>
+                            <ul class="custom popular_post">
+                                <li>
+                                    <div class="post">
+                                        <div class="post-wrapper">
+                                            <div class="popular_post_img animate-img">
+                                                <a href="blog-single.html">
+                                                    <img src="asset/images/insta/insta9.jpg" class="img-fluid image-fit" alt="#">
+                                                </a>
+                                            </div>
+                                            <div class="popular_post_title">
+                                                <h6><a href="blog-single.html" class="text-custom-white fs-14 fw-400">8 Tips to Help You Finding New Home</a></h6>
+                                                <div class="post-date">
+                                                    <p class="text-white no-margin">March 20 2020</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="post">
+                                        <div class="post-wrapper">
+                                            <div class="popular_post_img animate-img">
+                                                <a href="blog-single.html">
+                                                    <img src="asset/images/insta/insta10.jpg" class="img-fluid image-fit" alt="#">
+                                                </a>
+                                            </div>
+                                            <div class="popular_post_title">
+                                                <h6><a href="blog-single.html" class="text-custom-white fs-14 fw-400">Bedroom Colors You'll Never Regret</a></h6>
+                                                <div class="post-date">
+                                                    <p class="text-white no-margin">09 Jan 2020</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div> -->
+                    <!-- </div> -->
+                    <!-- <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box mb-xs-80">
+                            <div class="footer-heading">
+                                <h4 class="text-custom-white no-margin">Twitter Feeds</h4>
+                            </div>
+                            <ul class="custom twitter-feed twitter-slider">
+                                <li>
+                                    <p class="tweet">Do you work with video? Help us improve our video offering by taking this quick 2 minute survey. <a href="#">demo.com</a>
+                                    </p>
+                                    <p class="timePosted"><a href="#">Posted on Dec 18, 2017</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="tweet">Do you work with video? Help us improve our video offering by taking this quick 2 minute survey. <a href="#">demo.com</a>
+                                    </p>
+                                    <p class="timePosted"><a href="#">Posted on Dec 18, 2017</a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="tweet">Do you work with video? Help us improve our video offering by taking this quick 2 minute survey. <a href="#">demo.com</a>
+                                    </p>
+                                    <p class="timePosted"><a href="#">Posted on Dec 18, 2017</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-lg-3 col-sm-6">
+                        <div class="footer-box">
+                            <div class="footer-heading">
+                                <h4 class="text-custom-white no-margin">News Letter</h4>
+                            </div>
+                            <div class="newsletter">
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control form-control-custom" placeholder="Email Id">
+                                    </div>
+                                    <button class="btn-first btn-submit-fill btn-height full-width" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                            <div class="social-media">
+                                <ul class="custom social-media">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fab fa-google-plus"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="payment-logo mb-md-20"> <span class="text-custom-white fs-14 mr-3"></span>
+                            <div class="payemt-icon">
+                                <!-- <img src="asset/images/footer-bottom-img.png" alt="#"> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="text-custom-white no-margin" style="font-family:{{font}}">© {{prodetails['company']}} - {{year}} | All Right Reserved.Developed By a3sola
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer -->
+        <!-- back to top -->
+        <div id="back-top" class="back-top"> <a href="#top"><i class="flaticon-up-arrow"></i></a>
+        </div>
+    </div>
+    <!-- End Main Body -->
+    <!-- Place all Scripts Here -->
+    <!-- jQuery -->
+    <script src="asset/js/jquery.min.js"></script>
+    <!-- Popper -->
+    <script src="asset/js/popper.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="asset/js/bootstrap.min.js"></script>
+    <!-- Range Slider -->
+    <script src="asset/js/ion.rangeSlider.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="asset/js/slick.min.js"></script>
+    <!-- Datepicker -->
+    <script src="asset/js/datepicker.js"></script>
+    <script src="asset/js/datepicker.en.js"></script>
+    <!-- Nice Select -->
+    <script src="asset/js/jquery.nice-select.js"></script>
+    <!-- Steps -->
+    <script src="asset/js/jquery-steps.js"></script>
+    <!-- Nice Select -->
+    <script src="asset/js/particles.js"></script>
+    <!-- Magnific Popup -->
+    <script src="asset/js/jquery.magnific-popup.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDnd9JwZvXty-1gHZihMoFhJtCXmHfeRQg"></script>
+    <!-- Isotope Gallery -->
+    <script src="asset/js/isotope.pkgd.min.js"></script>
+    <!-- Wow js -->
+    <script src="asset/js/wow.min.js"></script>
+    <!-- Chart Js -->
+    <script src="asset/js/Chart.min.js"></script>
+    <!-- Custom Js -->
+    <script src="asset/js/custom.js"></script>
+    <!-- /Place all Scripts Here -->
+</body>
+
+</html>

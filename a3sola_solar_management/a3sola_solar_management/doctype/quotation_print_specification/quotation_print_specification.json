@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{product_bundle}",
+ "creation": "2023-05-03 12:28:21.032992",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_bundle",
+  "system_specification",
+  "other_attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_bundle",
+   "fieldtype": "Link",
+   "label": "Product Bundle",
+   "options": "Product Bundle"
+  },
+  {
+   "fieldname": "system_specification",
+   "fieldtype": "Table",
+   "label": "System Specification",
+   "options": "System Specification"
+  },
+  {
+   "fieldname": "other_attachment",
+   "fieldtype": "Table",
+   "label": "Other Attachment",
+   "options": "Quotation Print Images"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-05-04 14:53:42.929970",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Quotation Print Specification",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

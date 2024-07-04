@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:FR-{customer}-{####}",
+ "creation": "2024-03-06 17:37:59.212863",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "consumer_number",
+  "column_break_aznzt",
+  "customer",
+  "posting_date",
+  "feasibility_report_details_section",
+  "connected_load__contract_demand_of_consumer",
+  "billing_type",
+  "solar_energy_in_other_premises",
+  "column_break_rzwvg",
+  "capacity_of_solar_energy_system_proposed",
+  "proposed_date_of_completion_of_installation",
+  "roof_type",
+  "section_break_xzrsb",
+  "consumer_premise_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_aznzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "feasibility_report_details_section",
+   "fieldtype": "Section Break",
+   "label": "Feasibility Report Details"
+  },
+  {
+   "fieldname": "connected_load__contract_demand_of_consumer",
+   "fieldtype": "Data",
+   "label": "Connected Load / Contract Demand of Consumer"
+  },
+  {
+   "fieldname": "billing_type",
+   "fieldtype": "Select",
+   "label": "Billing Type",
+   "options": "\nTOD\nNon-TOD"
+  },
+  {
+   "fieldname": "roof_type",
+   "fieldtype": "Data",
+   "label": "Roof Type"
+  },
+  {
+   "fieldname": "column_break_rzwvg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "capacity_of_solar_energy_system_proposed",
+   "fieldtype": "Data",
+   "label": "Capacity of Solar Energy System Proposed"
+  },
+  {
+   "default": "0",
+   "fieldname": "solar_energy_in_other_premises",
+   "fieldtype": "Check",
+   "label": "Solar Energy in Other Premises"
+  },
+  {
+   "fieldname": "proposed_date_of_completion_of_installation",
+   "fieldtype": "Date",
+   "label": "Proposed Date of Completion of Installation"
+  },
+  {
+   "fieldname": "section_break_xzrsb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "depends_on": "eval:doc.solar_energy_in_other_premises==\"1\"",
+   "fieldname": "consumer_premise_details",
+   "fieldtype": "Table",
+   "label": "Consumer Premise Details",
+   "options": "Feasibility Report Details"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-07 10:25:09.392644",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Feasibility Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

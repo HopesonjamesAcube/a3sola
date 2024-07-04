@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-04-27 11:39:53.609548",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "customer",
+  "address",
+  "item_make",
+  "item_model",
+  "inverter_make",
+  "inverter_efficiency",
+  "posting_date",
+  "column_break_ifqls",
+  "consumer_number",
+  "item_capacity",
+  "pv_module_capacity",
+  "item_efficency",
+  "inverter_model",
+  "rts_system_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "item_capacity",
+   "fieldtype": "Data",
+   "label": "Item Capacity"
+  },
+  {
+   "fieldname": "item_model",
+   "fieldtype": "Data",
+   "label": "PV Module Model"
+  },
+  {
+   "fieldname": "inverter_make",
+   "fieldtype": "Data",
+   "label": "Inverter Make"
+  },
+  {
+   "fieldname": "inverter_efficiency",
+   "fieldtype": "Data",
+   "label": "Inverter Efficiency"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_ifqls",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_make",
+   "fieldtype": "Data",
+   "label": "PV Module Make"
+  },
+  {
+   "fieldname": "item_efficency",
+   "fieldtype": "Data",
+   "label": "Item Efficency"
+  },
+  {
+   "fieldname": "inverter_model",
+   "fieldtype": "Data",
+   "label": "Inverter Model"
+  },
+  {
+   "fieldname": "rts_system_cost",
+   "fieldtype": "Data",
+   "label": "RTS System Cost"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project Id",
+   "options": "Project"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "pv_module_capacity",
+   "fieldtype": "Data",
+   "label": "PV Module Capacity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-18 13:24:41.459229",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "MNRE Agreement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

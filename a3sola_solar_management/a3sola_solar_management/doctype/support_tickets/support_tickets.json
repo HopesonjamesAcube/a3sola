@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-24 10:58:33.183113",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "project_id",
+  "project_name",
+  "column_break_qgnev",
+  "opportunity_id",
+  "customer",
+  "tickets_raises_section",
+  "issued_tickets"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project Id",
+   "options": "Project"
+  },
+  {
+   "fetch_from": "project_id.project_name",
+   "fieldname": "project_name",
+   "fieldtype": "Data",
+   "label": "Project Name"
+  },
+  {
+   "fieldname": "column_break_qgnev",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "opportunity_id",
+   "fieldtype": "Link",
+   "label": "Opportunity Id",
+   "options": "Opportunity"
+  },
+  {
+   "fetch_from": "opportunity_id.customer",
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "tickets_raises_section",
+   "fieldtype": "Section Break",
+   "label": "Tickets Raised"
+  },
+  {
+   "fieldname": "issued_tickets",
+   "fieldtype": "Table",
+   "label": "Issued Tickets",
+   "options": "Issued Tickets"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-24 11:09:57.664691",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Support Tickets",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-06-06 10:24:38.986935",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "panels",
+  "inverter",
+  "quotation_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "panels",
+   "fieldtype": "Table",
+   "label": "Panels",
+   "options": "CR Solar Serial No"
+  },
+  {
+   "fieldname": "inverter",
+   "fieldtype": "Table",
+   "label": "Inverter",
+   "options": "CR Inverter Serial No"
+  },
+  {
+   "fieldname": "quotation_id",
+   "fieldtype": "Link",
+   "label": "Quotation ID",
+   "options": "Quotation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 09:42:55.154367",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Module Capacity",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

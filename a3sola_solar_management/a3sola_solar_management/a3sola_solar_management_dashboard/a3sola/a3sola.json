@@ -1,0 +1,33 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Lead",
+   "width": "Half"
+  },
+  {
+   "chart": "Opporunity",
+   "width": "Half"
+  },
+  {
+   "chart": "Project Summary",
+   "width": "Half"
+  },
+  {
+   "chart": "Task",
+   "width": "Half"
+  }
+ ],
+ "creation": "2023-04-19 14:06:20.079401",
+ "dashboard_name": "A3sola",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2023-06-02 11:57:43.406403",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "A3sola",
+ "owner": "Administrator"
+}

@@ -1,0 +1,1 @@
+A new opportunity is assigned for you. Please follow up on {{doc.next_contact_date}}.

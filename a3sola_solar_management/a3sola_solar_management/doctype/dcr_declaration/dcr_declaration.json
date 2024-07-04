@@ -1,0 +1,151 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-04-08 13:53:44.601077",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "consumer_name",
+  "sanction_number",
+  "discom_name",
+  "column_break_8",
+  "installed_capacity",
+  "customer_address",
+  "sanction_date",
+  "project_id",
+  "pv_module_details_section",
+  "pv_module_capacity",
+  "purchase_order_number",
+  "cell_manufacturers_name",
+  "column_break_13",
+  "no_of_pv_modules",
+  "purchase_order_date",
+  "cell_gst_invoice_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Link",
+   "label": "Company Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "installed_capacity",
+   "fieldtype": "Data",
+   "label": "Installed Capacity"
+  },
+  {
+   "fieldname": "consumer_name",
+   "fieldtype": "Link",
+   "label": "Consumer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "customer_address",
+   "fieldtype": "Data",
+   "label": "Customer Address"
+  },
+  {
+   "fieldname": "sanction_number",
+   "fieldtype": "Data",
+   "label": "Sanction Number"
+  },
+  {
+   "default": "Today",
+   "fieldname": "sanction_date",
+   "fieldtype": "Date",
+   "label": "Sanction Date"
+  },
+  {
+   "fieldname": "discom_name",
+   "fieldtype": "Data",
+   "label": "DISCOM Name"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pv_module_capacity",
+   "fieldtype": "Data",
+   "label": "PV Module Capacity"
+  },
+  {
+   "fieldname": "no_of_pv_modules",
+   "fieldtype": "Data",
+   "label": "No of PV Modules"
+  },
+  {
+   "fieldname": "purchase_order_number",
+   "fieldtype": "Data",
+   "label": "Purchase Order Number"
+  },
+  {
+   "fieldname": "purchase_order_date",
+   "fieldtype": "Date",
+   "label": "Purchase Order Date"
+  },
+  {
+   "fieldname": "cell_manufacturers_name",
+   "fieldtype": "Data",
+   "label": "Cell Manufacturers Name"
+  },
+  {
+   "fieldname": "cell_gst_invoice_number",
+   "fieldtype": "Data",
+   "label": "Cell GST Invoice Number"
+  },
+  {
+   "fieldname": "pv_module_details_section",
+   "fieldtype": "Section Break",
+   "label": "PV Module Details"
+  },
+  {
+   "fieldname": "column_break_13",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 09:41:57.788678",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "DCR Declaration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

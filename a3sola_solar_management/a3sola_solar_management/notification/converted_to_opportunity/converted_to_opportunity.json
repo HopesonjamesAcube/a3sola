@@ -1,0 +1,29 @@
+{
+ "attach_print": 1,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2022-10-12 13:44:27.332173",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Opportunity",
+ "enabled": 0,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "The lead {{doc.party_name}} converted to opportunity",
+ "modified": "2022-10-26 15:41:19.679214",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Converted to Opportunity",
+ "owner": "Administrator",
+ "print_format": "opportunity pf",
+ "recipients": [
+  {
+   "receiver_by_document_field": "contact_email"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Lead {{doc.party_name}} converted to Opportunity"
+}

@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-05 10:19:04.932709",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "auto_import_sections_section",
+  "territory",
+  "electricity_board",
+  "task",
+  "project_template",
+  "scheme",
+  "item_group",
+  "item",
+  "product_bundle",
+  "print_formats",
+  "project_setting"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "electricity_board",
+   "fieldtype": "Check",
+   "label": "Electricity Board"
+  },
+  {
+   "default": "1",
+   "fieldname": "project_template",
+   "fieldtype": "Check",
+   "label": "Project Template"
+  },
+  {
+   "default": "1",
+   "fieldname": "scheme",
+   "fieldtype": "Check",
+   "label": "Scheme"
+  },
+  {
+   "default": "1",
+   "fieldname": "item",
+   "fieldtype": "Check",
+   "label": "Item Name"
+  },
+  {
+   "default": "1",
+   "fieldname": "product_bundle",
+   "fieldtype": "Check",
+   "label": "Product Bundle"
+  },
+  {
+   "fieldname": "auto_import_sections_section",
+   "fieldtype": "Section Break",
+   "label": "Auto Import Sections"
+  },
+  {
+   "default": "1",
+   "fieldname": "territory",
+   "fieldtype": "Check",
+   "label": "Territory"
+  },
+  {
+   "default": "1",
+   "fieldname": "task",
+   "fieldtype": "Check",
+   "label": "Template Tasks"
+  },
+  {
+   "default": "1",
+   "fieldname": "item_group",
+   "fieldtype": "Check",
+   "label": "Item Group"
+  },
+  {
+   "default": "0",
+   "fieldname": "print_formats",
+   "fieldtype": "Check",
+   "label": "Print Formats"
+  },
+  {
+   "default": "0",
+   "fieldname": "project_setting",
+   "fieldtype": "Check",
+   "label": "Project Setting"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-09-07 12:09:15.386878",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Auto Data Seeding",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

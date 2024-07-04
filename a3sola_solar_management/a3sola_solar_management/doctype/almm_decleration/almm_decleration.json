@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:ALMM-Doc-{###}",
+ "creation": "2024-03-16 14:01:40.478663",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "consumer_number",
+  "phone_number",
+  "address",
+  "column_break_aznzt",
+  "customer",
+  "posting_date",
+  "email",
+  "spv_module_details_section",
+  "spv_module_details"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "column_break_aznzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "spv_module_details_section",
+   "fieldtype": "Section Break",
+   "label": "SPV Module Details"
+  },
+  {
+   "fieldname": "spv_module_details",
+   "fieldtype": "Table",
+   "label": "SPV Module Details",
+   "options": "SPV Module Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-19 14:23:11.887499",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "ALMM Decleration",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

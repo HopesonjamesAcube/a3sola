@@ -1,0 +1,29 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "",
+ "creation": "2023-09-08 13:09:07.685455",
+ "date_changed": "mntc_date",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Maintenance Visit",
+ "enabled": 0,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "We have a maintenance shedule visit today document id: {{doc.name}}",
+ "modified": "2023-09-08 13:11:10.783123",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Maintenance Visit",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Main User"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Maintance Visit"
+}

@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-30 10:51:14.573293",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "collect_otp",
+  "color_theme",
+  "c_column",
+  "data_3",
+  "font",
+  "column_break_4",
+  "custom_menu",
+  "terms"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "default": "0",
+   "fieldname": "collect_otp",
+   "fieldtype": "Check",
+   "label": "Collect OTP Before Estimate"
+  },
+  {
+   "fieldname": "color_theme",
+   "fieldtype": "Color",
+   "label": "Color Theme"
+  },
+  {
+   "fieldname": "c_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_3",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "font",
+   "fieldtype": "Data",
+   "label": "Font"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Section Break",
+   "label": "Custom Menu Items"
+  },
+  {
+   "fieldname": "custom_menu",
+   "fieldtype": "Table",
+   "label": "Custom Menu",
+   "options": "Custom Menu Items"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Link",
+   "label": "Terms and Conditions",
+   "options": "Terms and Conditions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-11-30 12:09:36.163147",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Lead Gen Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

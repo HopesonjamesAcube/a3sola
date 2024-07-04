@@ -1,0 +1,104 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:KSEB-Completion-Report-{customer}-{######}",
+ "creation": "2024-03-07 15:18:23.008269",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "consumer_number",
+  "column_break_aznzt",
+  "customer",
+  "posting_date",
+  "kseb_registration_details_section",
+  "solar_registration_number",
+  "attached_tech_spec",
+  "column_break_rzwvg",
+  "capacity_of_solar_energy_system_proposed",
+  "whether_electrical_inspectors_approval_letter"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "column_break_aznzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "kseb_registration_details_section",
+   "fieldtype": "Section Break",
+   "label": "KSEB Completion Report Details"
+  },
+  {
+   "fieldname": "solar_registration_number",
+   "fieldtype": "Data",
+   "label": "Solar Registration Number"
+  },
+  {
+   "fieldname": "attached_tech_spec",
+   "fieldtype": "Select",
+   "label": "Attached Tech Spec and Other Particulars of Solar Panel,Grid Tied Inverter and interlocking System",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_rzwvg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "capacity_of_solar_energy_system_proposed",
+   "fieldtype": "Data",
+   "label": "Capacity of Solar Energy System Proposed"
+  },
+  {
+   "fieldname": "whether_electrical_inspectors_approval_letter",
+   "fieldtype": "Select",
+   "label": "Whether Electrical Inspector's approval letter (Energization Certificate) is attached",
+   "options": "\nYes\nNo"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-07 15:39:09.636870",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "KSEB Completion Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

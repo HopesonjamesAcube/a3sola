@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-27 11:13:01.083539",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date_and_time",
+  "status",
+  "feedback",
+  "userlink",
+  "user"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Date and Time"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Status",
+   "options": "\nCall Back\nInvalid Number\nRejected\nBusy\nNo Response\nReplied"
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Feedback"
+  },
+  {
+   "fieldname": "userlink",
+   "fieldtype": "Link",
+   "label": "Userlink",
+   "options": "User"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "User"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-06-27 11:13:01.083539",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Task Tracking",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

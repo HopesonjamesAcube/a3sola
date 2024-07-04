@@ -1,0 +1,52 @@
+[
+ {
+  "category_name": "On Grid",
+  "docstatus": 0,
+  "doctype": "Category",
+  "modified": "2022-09-27 20:44:27.495512",
+  "name": "On Grid",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "category_name": "Off Grid",
+  "docstatus": 0,
+  "doctype": "Category",
+  "modified": "2022-09-27 20:44:41.135405",
+  "name": "Off Grid",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "category_name": "Hybrid",
+  "docstatus": 0,
+  "doctype": "Category",
+  "modified": "2022-09-27 20:44:58.485190",
+  "name": "Hybrid",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "category_name": "Inverter",
+  "docstatus": 0,
+  "doctype": "Category",
+  "modified": "2022-09-27 20:45:15.026636",
+  "name": "Inverter",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "category_name": "Water Heater",
+  "docstatus": 0,
+  "doctype": "Category",
+  "modified": "2022-09-27 20:45:29.124440",
+  "name": "Water Heater",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]

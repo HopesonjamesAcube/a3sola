@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status == \"Lead\"",
+ "creation": "2022-12-30 11:59:50.923455",
+ "date_changed": "contact_date",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Lead",
+ "enabled": 1,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<b>A new lead is assigned for you. Please follow up on{% if doc.contact_date %} {{doc.contact_date}}{% endif %}.</b>",
+ "modified": "2022-12-30 11:59:50.923455",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Lead Assigned",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "",
+   "receiver_by_role": "Sales User"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "Lead {{doc.name}} assigned for you"
+}

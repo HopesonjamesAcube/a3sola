@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-03-28 10:26:37.749172",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_details_section",
+  "customer_name",
+  "consumer_number",
+  "column_break_4",
+  "address",
+  "section_break_6",
+  "solar_pv_capacity",
+  "installation_date",
+  "date_of_installation",
+  "item_name",
+  "subsidy_amount",
+  "net_total",
+  "column_break_6",
+  "inverter_capacity",
+  "joint_inspection_date",
+  "metering_arrangement",
+  "amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "solar_pv_capacity",
+   "fieldtype": "Data",
+   "label": "Solar PV Capacity"
+  },
+  {
+   "fieldname": "inverter_capacity",
+   "fieldtype": "Data",
+   "label": "Inverter Capacity"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "installation_date",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Installation Date"
+  },
+  {
+   "fieldname": "joint_inspection_date",
+   "fieldtype": "Date",
+   "label": "Joint Inspection Date"
+  },
+  {
+   "fieldname": "metering_arrangement",
+   "fieldtype": "Select",
+   "label": "Metering Arrangement",
+   "options": "Net Meter\nGross Meter\nNet Billing"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "Item Name",
+   "options": "Item"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "subsidy_amount",
+   "fieldtype": "Currency",
+   "label": "Subsidy Amount"
+  },
+  {
+   "fieldname": "net_total",
+   "fieldtype": "Currency",
+   "label": "Net Total"
+  },
+  {
+   "fieldname": "date_of_installation",
+   "fieldtype": "Date",
+   "label": "Date of Installation"
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break",
+   "label": "More Information"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 09:33:52.328381",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Joint Inspection Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

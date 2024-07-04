@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-06 11:10:21.516637",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "quotation",
+  "column_break_y9sbq",
+  "item",
+  "consumption_details_section",
+  "per_month_consumption_in_unit",
+  "solar_system_requires_in_kw",
+  "column_break_oekmi",
+  "per_day_consumption_in_unit",
+  "connected_load_of_customer",
+  "emi_details_section",
+  "processing_fee_percentage",
+  "down_payment_percentage",
+  "no_of_emi",
+  "interest_percentage",
+  "per_month_generation_from_solar_plant",
+  "income_from_solar_unit_per_month",
+  "column_break_bl8vx",
+  "processing_fee",
+  "down_payment",
+  "repayment_moratorium",
+  "present_per_unit_electricity_cost",
+  "emi_amount",
+  "difference_between_monthly_income_and_emi"
+ ],
+ "fields": [
+  {
+   "fieldname": "consumption_details_section",
+   "fieldtype": "Section Break",
+   "label": "Consumption Details"
+  },
+  {
+   "fieldname": "per_month_consumption_in_unit",
+   "fieldtype": "Data",
+   "label": "Per Month Consumption in unit"
+  },
+  {
+   "fieldname": "solar_system_requires_in_kw",
+   "fieldtype": "Data",
+   "label": "Solar System Requires in KW"
+  },
+  {
+   "fieldname": "column_break_oekmi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "per_day_consumption_in_unit",
+   "fieldtype": "Data",
+   "label": "Per Day Consumption in unit"
+  },
+  {
+   "fieldname": "connected_load_of_customer",
+   "fieldtype": "Data",
+   "label": "Connected Load of Customer"
+  },
+  {
+   "fieldname": "emi_details_section",
+   "fieldtype": "Section Break",
+   "label": "EMI Details"
+  },
+  {
+   "fieldname": "processing_fee_percentage",
+   "fieldtype": "Data",
+   "label": "Processing Fee Percentage"
+  },
+  {
+   "fieldname": "down_payment_percentage",
+   "fieldtype": "Data",
+   "label": "Down Payment Percentage"
+  },
+  {
+   "fieldname": "no_of_emi",
+   "fieldtype": "Data",
+   "label": "No of EMI"
+  },
+  {
+   "fieldname": "per_month_generation_from_solar_plant",
+   "fieldtype": "Data",
+   "label": "Per Month Generation From Solar Plant"
+  },
+  {
+   "fieldname": "income_from_solar_unit_per_month",
+   "fieldtype": "Data",
+   "label": "Income from Solar Unit (per month)"
+  },
+  {
+   "fieldname": "column_break_bl8vx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "processing_fee",
+   "fieldtype": "Data",
+   "label": "Processing Fee"
+  },
+  {
+   "fieldname": "down_payment",
+   "fieldtype": "Data",
+   "label": "Down Payment"
+  },
+  {
+   "fieldname": "repayment_moratorium",
+   "fieldtype": "Data",
+   "label": "Repayment Moratorium(Months)"
+  },
+  {
+   "fieldname": "emi_amount",
+   "fieldtype": "Data",
+   "label": "EMI Amount"
+  },
+  {
+   "fieldname": "difference_between_monthly_income_and_emi",
+   "fieldtype": "Data",
+   "label": "Difference between Monthly Income and EMI"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "Link",
+   "label": "Quotation",
+   "options": "Quotation"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "column_break_y9sbq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "interest_percentage",
+   "fieldtype": "Data",
+   "label": "Interest Percentage"
+  },
+  {
+   "fieldname": "present_per_unit_electricity_cost",
+   "fieldtype": "Data",
+   "label": "Present Per Unit Electricity Cost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-11-06 11:51:48.428394",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "EMI Details",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

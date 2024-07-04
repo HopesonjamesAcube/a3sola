@@ -1,0 +1,51 @@
+[
+ {
+  "automate_project_assignment": 1,
+  "docstatus": 0,
+  "doctype": "Projects Settings",
+  "ignore_employee_time_overlap": 0,
+  "ignore_user_time_overlap": 0,
+  "ignore_workstation_time_overlap": 0,
+  "modified": "2022-10-24 10:27:06.628322",
+  "name": "Projects Settings",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "project_naming_series": "PRO-SE-.YYYY.-",
+  "project_users": [
+   {
+    "email": "arun@gmail.com",
+    "full_name": "ARUN BABU",
+    "image": null,
+    "parent": "Projects Settings",
+    "parentfield": "project_users",
+    "parenttype": "Projects Settings",
+    "project_status": null,
+    "user": "arun@gmail.com",
+    "view_attachments": 0,
+    "welcome_email_sent": 0
+   }
+  ],
+  "send_customer_notifications": 0,
+  "template_details": [
+   {
+    "board": "KSEB",
+    "duration": 30,
+    "parent": "Projects Settings",
+    "parentfield": "template_details",
+    "parenttype": "Projects Settings",
+    "scheme": "SOURA",
+    "select_template": "a3sola soura template"
+   },
+   {
+    "board": "KSEB",
+    "duration": 30,
+    "parent": "Projects Settings",
+    "parentfield": "template_details",
+    "parenttype": "Projects Settings",
+    "scheme": "ANERT",
+    "select_template": "a3sola anert template"
+   }
+  ]
+ }
+]

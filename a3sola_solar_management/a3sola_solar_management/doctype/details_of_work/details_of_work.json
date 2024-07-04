@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-24 10:17:01.448092",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "consumer_number",
+  "circle",
+  "invoice_no",
+  "installed_capacity",
+  "no_of_panels",
+  "capacity_updated_in_orumanet",
+  "actual_date_of_commencement",
+  "commissioned_date",
+  "pr",
+  "column_break_10",
+  "consumer_name",
+  "section",
+  "invoice_date",
+  "inverter_capacity",
+  "panel_capacity",
+  "total_capacity",
+  "actual_date_of_completion",
+  "commercial_operation_date",
+  "subsidy_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "consumer_name",
+   "fieldtype": "Link",
+   "label": "Consumer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "circle",
+   "fieldtype": "Data",
+   "label": "Circle"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Link",
+   "label": "Invoice No ",
+   "options": "Sales Invoice"
+  },
+  {
+   "fieldname": "invoice_date",
+   "fieldtype": "Date",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "installed_capacity",
+   "fieldtype": "Data",
+   "label": "Installed Capacity"
+  },
+  {
+   "fieldname": "inverter_capacity",
+   "fieldtype": "Data",
+   "label": "Inverter Capacity"
+  },
+  {
+   "fieldname": "panel_capacity",
+   "fieldtype": "Data",
+   "label": "Panel Capacity"
+  },
+  {
+   "fieldname": "no_of_panels",
+   "fieldtype": "Data",
+   "label": "No of Panels"
+  },
+  {
+   "fieldname": "total_capacity",
+   "fieldtype": "Data",
+   "label": "Total Capacity"
+  },
+  {
+   "fieldname": "capacity_updated_in_orumanet",
+   "fieldtype": "Data",
+   "label": "Capacity Updated in Orumanet"
+  },
+  {
+   "fieldname": "actual_date_of_commencement",
+   "fieldtype": "Date",
+   "label": "Actual Date of Commencement"
+  },
+  {
+   "fieldname": "actual_date_of_completion",
+   "fieldtype": "Date",
+   "label": "Actual Date of Completion"
+  },
+  {
+   "fieldname": "commissioned_date",
+   "fieldtype": "Date",
+   "label": "Commissioned Date"
+  },
+  {
+   "fieldname": "commercial_operation_date",
+   "fieldtype": "Date",
+   "label": "Commercial Operation Date"
+  },
+  {
+   "fieldname": "pr",
+   "fieldtype": "Data",
+   "label": "Performance Ratio(PR)"
+  },
+  {
+   "fieldname": "subsidy_amount",
+   "fieldtype": "Data",
+   "label": "Subsidy Amount to be Released"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 09:40:17.352900",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Details of Work",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

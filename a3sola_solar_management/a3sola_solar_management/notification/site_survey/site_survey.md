@@ -1,0 +1,1 @@
+This Lead has been assigned to {{doc.next_contact_by}} to be completed on or before {{doc.ends_on}}<br>The lead status has not been followed up and status remains the same

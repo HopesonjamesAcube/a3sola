@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-05-10 10:59:54.694434",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "spv_module_make",
+  "each_module_watts",
+  "spv_module_type",
+  "spv_serial_no"
+ ],
+ "fields": [
+  {
+   "allow_on_submit": 1,
+   "fieldname": "spv_module_make",
+   "fieldtype": "Link",
+   "label": "SPV Module Make",
+   "options": "Brand"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "spv_module_type",
+   "fieldtype": "Data",
+   "label": "SPV Module Type"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "each_module_watts",
+   "fieldtype": "Data",
+   "label": "Each Module Watts"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "spv_serial_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Serial No"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-07-21 18:08:14.199394",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "CR Solar Serial No",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

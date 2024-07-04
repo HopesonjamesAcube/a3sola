@@ -1,0 +1,32 @@
+{
+ "allow_roles": [
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Administrator"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "creation": "2022-11-03 11:05:19.357982",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://docs.erpnext.com/docs/v13/user/manual/en/projects",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2022-11-03 11:05:19.357982",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Let's Start",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "Create Lead"
+  }
+ ],
+ "subtitle": "Solar Panel",
+ "success_message": "The A3sola Module is all set up!",
+ "title": "Leads,Opportunity and More"
+}

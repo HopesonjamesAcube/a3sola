@@ -1,0 +1,120 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:Schedule-{MM}-{customer}-{###}",
+ "creation": "2022-04-13 17:08:50.244740",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "customer_address",
+  "column_break_3",
+  "dealer",
+  "date_of_posting",
+  "installation_scheduled_on",
+  "sales_order_id",
+  "installed_item",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "dealer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Dealer",
+   "options": "Sales Partner"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date_of_posting",
+   "fieldtype": "Date",
+   "label": "Date of Posting"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "installation_scheduled_on",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Installation Scheduled On"
+  },
+  {
+   "fieldname": "sales_order_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Sales Order ID",
+   "options": "Sales Order"
+  },
+  {
+   "fetch_from": "sales_order_id.address_display",
+   "fieldname": "customer_address",
+   "fieldtype": "Small Text",
+   "label": "Customer Address"
+  },
+  {
+   "fetch_from": "sales_order_id.bom_item",
+   "fieldname": "installed_item",
+   "fieldtype": "Data",
+   "label": "Installation Item"
+  },
+  {
+   "fetch_from": "sales_order_id.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Schedule Installation",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-06-26 17:10:29.767781",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Schedule Installation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

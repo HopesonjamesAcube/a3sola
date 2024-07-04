@@ -1,0 +1,1214 @@
+[
+    {
+     "docstatus": 0,
+     "doctype": "Project Template",
+     "modified": "2023-09-05 17:07:04.804611",
+     "name": "MNRE",
+     "parent": null,
+     "parentfield": null,
+     "parenttype": null,
+     "project_group": "On-Grid",
+     "project_type": null,
+     "tasks": [
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "1",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Survey",
+       "task": "TASK-2023-00001"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "2",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Information",
+       "task": "TASK-2023-00002"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "4",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "EB Information",
+       "task": "TASK-2023-00003"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "5",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 3,
+       "subject": "Quotation",
+       "task": "TASK-2023-00004"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "6",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 4,
+       "subject": "Sales Order",
+       "task": "TASK-2023-00005"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "7",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 4,
+       "subject": "Sandes App Registration",
+       "task": "TASK-2023-00006"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "8",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 4,
+       "subject": "MNRE Registration",
+       "task": "TASK-2023-00007"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "9",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 6,
+       "subject": "Feasibility Approval from MNRE",
+       "task": "TASK-2023-00008"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "10",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 6,
+       "subject": "Feasibility Payments",
+       "task": "TASK-2023-00009"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "11",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Feasibility Report from KSEB",
+       "task": "TASK-2023-00010"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "13",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Project Agreement",
+       "task": "TASK-2023-00011"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "14",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Documents Signed by customer",
+       "task": "TASK-2023-00012"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "15",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "First Part Payment",
+       "task": "TASK-2023-00013"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "16",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Technical Site Survey",
+       "task": "TASK-2023-00014"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "17",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 18,
+       "subject": "Material Pack-Up",
+       "task": "TASK-2023-00015"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "18",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 19,
+       "subject": "Material Delivery",
+       "task": "TASK-2023-00016"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "19",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 20,
+       "subject": "Schedule Installation",
+       "task": "TASK-2023-00017"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "20",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 21,
+       "subject": "Installer Payment",
+       "task": "TASK-2023-00018"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "21",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 23,
+       "subject": "Second Part Payment",
+       "task": "TASK-2023-00019"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "22",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 24,
+       "subject": "KSEB Registration Payment",
+       "task": "TASK-2023-00020"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Security Deposit Refund Request",
+       "task": "TASK-2023-00041"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "23",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Preparing Completion Report",
+       "task": "TASK-2023-00021"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "24",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Completion Report submit on KSEB",
+       "task": "TASK-2023-00022"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "25",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 27,
+       "subject": "Annexture 3 Submit on KESB",
+       "task": "TASK-2023-00023"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "26",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 28,
+       "subject": "Net Meter Purchase",
+       "task": "TASK-2023-00024"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "27",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 29,
+       "subject": "Net Meter & Agreement Submit on KESB",
+       "task": "TASK-2023-00025"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "28",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 35,
+       "subject": "KSEB Connection Initialization",
+       "task": "TASK-2023-00026"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Maintenance Schedule",
+       "task": "TASK-2023-00027"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Final Payment",
+       "task": "TASK-2023-00028"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "30",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Sales Invoice",
+       "task": "TASK-2023-00029"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "31",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 37,
+       "subject": "Upload Documents to MNRE",
+       "task": "TASK-2023-00030"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "32",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 37,
+       "subject": "Customer Documents Handover",
+       "task": "TASK-2023-00031"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "33",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 38,
+       "subject": "Subsidy Application",
+       "task": "TASK-2023-00032"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "34",
+       "parent": "MNRE",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 60,
+       "subject": "Status Of  subsidy disbursement",
+       "task": "TASK-2023-00033"
+      }
+     ]
+    },
+    {
+     "docstatus": 0,
+     "doctype": "Project Template",
+     "modified": "2023-09-05 17:07:05.104286",
+     "name": "PRIVATE PROJECT",
+     "parent": null,
+     "parentfield": null,
+     "parenttype": null,
+     "project_group": "Off-Grid",
+     "project_type": null,
+     "tasks": [
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "1",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Survey",
+       "task": "TASK-2023-00001"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "2",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Information",
+       "task": "TASK-2023-00002"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "4",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "EB Information",
+       "task": "TASK-2023-00003"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "5",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 3,
+       "subject": "Quotation",
+       "task": "TASK-2023-00004"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "6",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 4,
+       "subject": "Sales Order",
+       "task": "TASK-2023-00005"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "10",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 6,
+       "subject": "Feasibility Payments",
+       "task": "TASK-2023-00009"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "11",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Feasibility Report from KSEB",
+       "task": "TASK-2023-00010"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "13",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Project Agreement",
+       "task": "TASK-2023-00011"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "14",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Documents Signed by customer",
+       "task": "TASK-2023-00012"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "15",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "First Part Payment",
+       "task": "TASK-2023-00013"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "16",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Technical Site Survey",
+       "task": "TASK-2023-00014"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "17",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 18,
+       "subject": "Material Pack-Up",
+       "task": "TASK-2023-00015"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "18",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 19,
+       "subject": "Material Delivery",
+       "task": "TASK-2023-00016"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "19",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 20,
+       "subject": "Schedule Installation",
+       "task": "TASK-2023-00017"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "20",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 21,
+       "subject": "Installer Payment",
+       "task": "TASK-2023-00018"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "21",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 23,
+       "subject": "Second Part Payment",
+       "task": "TASK-2023-00019"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "22",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 24,
+       "subject": "KSEB Registration Payment",
+       "task": "TASK-2023-00020"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "23",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Preparing Completion Report",
+       "task": "TASK-2023-00021"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "24",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Completion Report submit on KSEB",
+       "task": "TASK-2023-00022"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "25",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 27,
+       "subject": "Annexture 3 Submit on KESB",
+       "task": "TASK-2023-00023"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "26",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 28,
+       "subject": "Net Meter Purchase",
+       "task": "TASK-2023-00024"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "27",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 29,
+       "subject": "Net Meter & Agreement Submit on KESB",
+       "task": "TASK-2023-00025"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "28",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 35,
+       "subject": "KSEB Connection Initialization",
+       "task": "TASK-2023-00026"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Maintenance Schedule",
+       "task": "TASK-2023-00027"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Final Payment",
+       "task": "TASK-2023-00028"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "30",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Sales Invoice",
+       "task": "TASK-2023-00029"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "32",
+       "parent": "PRIVATE PROJECT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 37,
+       "subject": "Customer Documents Handover",
+       "task": "TASK-2023-00031"
+      }
+     ]
+    },
+    {
+     "docstatus": 0,
+     "doctype": "Project Template",
+     "modified": "2023-09-05 17:07:05.226825",
+     "name": "ANERT",
+     "parent": null,
+     "parentfield": null,
+     "parenttype": null,
+     "project_group": "On-Grid",
+     "project_type": null,
+     "tasks": [
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "1",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Survey",
+       "task": "TASK-2023-00001"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "2",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Information",
+       "task": "TASK-2023-00002"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "4",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "EB Information",
+       "task": "TASK-2023-00003"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 3,
+       "subject": "Work Order",
+       "task": "TASK-2023-00035"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "5",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 3,
+       "subject": "Quotation",
+       "task": "TASK-2023-00004"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 3,
+       "subject": "DD 2.5% Licence Fee",
+       "task": "TASK-2023-00036"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "10",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 6,
+       "subject": "Feasibility Payments",
+       "task": "TASK-2023-00009"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "11",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Feasibility Report from KSEB",
+       "task": "TASK-2023-00010"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "13",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Project Agreement",
+       "task": "TASK-2023-00011"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "First Part Payment 30% Request",
+       "task": "TASK-2023-00037"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "16",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Technical Site Survey",
+       "task": "TASK-2023-00014"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "17",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 18,
+       "subject": "Material Pack-Up",
+       "task": "TASK-2023-00015"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "18",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 19,
+       "subject": "Material Delivery",
+       "task": "TASK-2023-00016"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 19,
+       "subject": "Document Submission On ANERT",
+       "task": "TASK-2023-00038"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "19",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 20,
+       "subject": "Schedule Installation",
+       "task": "TASK-2023-00017"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "20",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 21,
+       "subject": "Installer Payment",
+       "task": "TASK-2023-00018"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Inspectorate",
+       "task": "TASK-2023-00040"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "23",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Preparing Completion Report",
+       "task": "TASK-2023-00021"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "21",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Second Part Payment",
+       "task": "TASK-2023-00019"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "22",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "KSEB Registration Payment",
+       "task": "TASK-2023-00020"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "24",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Completion Report submit on KSEB",
+       "task": "TASK-2023-00022"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "25",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 27,
+       "subject": "Annexture 3 Submit on KESB",
+       "task": "TASK-2023-00023"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "26",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 28,
+       "subject": "Net Meter Purchase",
+       "task": "TASK-2023-00024"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "27",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 29,
+       "subject": "Net Meter & Agreement Submit on KESB",
+       "task": "TASK-2023-00025"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "28",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 35,
+       "subject": "KSEB Connection Initialization",
+       "task": "TASK-2023-00026"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Maintenance Schedule",
+       "task": "TASK-2023-00027"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Final Payment",
+       "task": "TASK-2023-00028"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "30",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Sales Invoice",
+       "task": "TASK-2023-00029"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Inspectorate",
+       "task": "TASK-2023-00039"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "32",
+       "parent": "ANERT",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 37,
+       "subject": "Customer Documents Handover",
+       "task": "TASK-2023-00031"
+      }
+     ]
+    },
+    {
+     "docstatus": 0,
+     "doctype": "Project Template",
+     "modified": "2023-09-05 17:12:05.382346",
+     "name": "SOURA",
+     "parent": null,
+     "parentfield": null,
+     "parenttype": null,
+     "project_group": "On-Grid",
+     "project_type": null,
+     "tasks": [
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "1",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Survey",
+       "task": "TASK-2023-00001"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "2",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "Site Information",
+       "task": "TASK-2023-00002"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "4",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 1,
+       "subject": "EB Information",
+       "task": "TASK-2023-00003"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "5",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 3,
+       "subject": "Quotation",
+       "task": "TASK-2023-00004"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "6",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 4,
+       "subject": "Sales Order",
+       "task": "TASK-2023-00005"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "10",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 6,
+       "subject": "Feasibility Payments",
+       "task": "TASK-2023-00009"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "13",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 12,
+       "subject": "Project Agreement",
+       "task": "TASK-2023-00011"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "14",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Documents Signed by customer",
+       "task": "TASK-2023-00012"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "15",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "First Part Payment",
+       "task": "TASK-2023-00013"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "16",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 15,
+       "subject": "Technical Site Survey",
+       "task": "TASK-2023-00014"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "17",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 18,
+       "subject": "Material Pack-Up",
+       "task": "TASK-2023-00015"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "18",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 19,
+       "subject": "Material Delivery",
+       "task": "TASK-2023-00016"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "19",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 20,
+       "subject": "Schedule Installation",
+       "task": "TASK-2023-00017"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "20",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 21,
+       "subject": "Installer Payment",
+       "task": "TASK-2023-00018"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "21",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 23,
+       "subject": "Second Part Payment",
+       "task": "TASK-2023-00019"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "23",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Preparing Completion Report",
+       "task": "TASK-2023-00021"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "24",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 26,
+       "subject": "Completion Report submit on KSEB",
+       "task": "TASK-2023-00022"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "28",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 35,
+       "subject": "KSEB Connection Initialization",
+       "task": "TASK-2023-00026"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Final Payment",
+       "task": "TASK-2023-00028"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "30",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Sales Invoice",
+       "task": "TASK-2023-00029"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 0,
+       "subject": "Joint Inspection Report",
+       "task": "TASK-2023-00042"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 0,
+       "subject": "Performance Ratio Test",
+       "task": "TASK-2023-00043"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": null,
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 0,
+       "subject": "Warranty Report",
+       "task": "TASK-2023-00044"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "29",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 36,
+       "subject": "Maintenance Schedule",
+       "task": "TASK-2023-00027"
+      },
+      {
+       "is_attachment_mandatory": 0,
+       "order_number": "32",
+       "parent": "SOURA",
+       "parentfield": "tasks",
+       "parenttype": "Project Template",
+       "starting_day": 37,
+       "subject": "Customer Documents Handover",
+       "task": "TASK-2023-00031"
+      }
+     ]
+    }
+   ]

@@ -1,0 +1,198 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:CR-{customer_name}-{###}",
+ "creation": "2022-03-25 17:33:29.890913",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "address",
+  "contact",
+  "work_order_reference_number",
+  "opportunity_id",
+  "column_break_5",
+  "consumer_number",
+  "section",
+  "phase",
+  "installed_plant_capacity",
+  "work_completion_date",
+  "quotation_id",
+  "specification_section",
+  "spv_module_make",
+  "spv_module_type",
+  "each_module_watts",
+  "number_of_modules",
+  "inverter",
+  "inverter_capacity",
+  "serial_no",
+  "inverter_serial_no",
+  "attach_pcr"
+ ],
+ "fields": [
+  {
+   "fetch_from": "quotation_id.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Data",
+   "label": "Contact"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "installed_plant_capacity",
+   "fieldtype": "Data",
+   "label": "Installed Plant Capacity"
+  },
+  {
+   "fieldname": "phase",
+   "fieldtype": "Data",
+   "label": "Phase"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "work_completion_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Work Completion Date"
+  },
+  {
+   "fieldname": "specification_section",
+   "fieldtype": "Section Break",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "spv_module_make",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "SPV Module Make"
+  },
+  {
+   "fieldname": "spv_module_type",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "SPV Module Type"
+  },
+  {
+   "fieldname": "each_module_watts",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Each Module Watts"
+  },
+  {
+   "fieldname": "number_of_modules",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Number of Modules"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Table",
+   "label": "SPV Serial No",
+   "options": "CR Solar Serial No"
+  },
+  {
+   "fieldname": "inverter",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Inverter"
+  },
+  {
+   "fieldname": "inverter_capacity",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Inverter Capacity"
+  },
+  {
+   "fieldname": "inverter_serial_no",
+   "fieldtype": "Table",
+   "label": "Inverter Serial No",
+   "options": "Inverter Details"
+  },
+  {
+   "fieldname": "attach_pcr",
+   "fieldtype": "Attach",
+   "label": "Attach PCR"
+  },
+  {
+   "fieldname": "opportunity_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Opportunity ID",
+   "options": "Opportunity"
+  },
+  {
+   "fieldname": "quotation_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Quotation ID",
+   "options": "Quotation",
+   "read_only": 1
+  },
+  {
+   "fieldname": "work_order_reference_number",
+   "fieldtype": "Data",
+   "label": "Work Order Reference Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-27 17:02:20.795566",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Completion Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

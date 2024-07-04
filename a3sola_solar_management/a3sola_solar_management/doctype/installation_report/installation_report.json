@@ -1,0 +1,758 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: IR-{MM}-{YY}-{customer_name}-{###}",
+ "creation": "2022-03-18 11:59:45.535966",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "company_name",
+  "installation_schedule_no",
+  "column_break_2",
+  "sales_order_id",
+  "date",
+  "section_break_5",
+  "customer_name",
+  "email",
+  "latitude",
+  "consumer_number",
+  "column_break_10",
+  "mobile_no",
+  "address",
+  "longitude",
+  "project_details_section",
+  "installed_item",
+  "project_type",
+  "installation_start_date",
+  "column_break_18",
+  "project_capacity",
+  "type_of_roof",
+  "date_of_completion",
+  "solar_module_section",
+  "make",
+  "capacity",
+  "column_break_24",
+  "model",
+  "numbers",
+  "section_break_27",
+  "no_of_string_per_module",
+  "section_break_29",
+  "solar_module_series_numbers",
+  "section_break_31",
+  "inverter_details",
+  "section_break_33",
+  "battery_serial_nos",
+  "dcdb_section",
+  "mcb_rating",
+  "spd_rating",
+  "dc_cable_size",
+  "dc_cable_length",
+  "column_break_37",
+  "dcdb_make",
+  "spd_make",
+  "array_to_ajb_size",
+  "array_to_ajb_length",
+  "column_break_39",
+  "nos",
+  "spd_nos",
+  "ajb_to_inverter_size",
+  "ajb_to_inveretr_length",
+  "acdb_section",
+  "mccb_rating",
+  "ac_cable_size",
+  "ac_cable_length",
+  "column_break_54",
+  "acb_make",
+  "inverter_to_acdb_size",
+  "inverter_to_acdb_length",
+  "column_break_58",
+  "acdb_nos",
+  "acdb_to_meter_size",
+  "acdb_to_meter_length",
+  "solar_meter_section",
+  "solar_meter_make",
+  "column_break_64",
+  "solar_meter_serial_no",
+  "column_break_66",
+  "solar_meter_initial_reading",
+  "earthing_section",
+  "no_of_earth_pits",
+  "column_break_70",
+  "no_of_lightening_arresters",
+  "earthing_connections_section",
+  "panel_to_panel",
+  "panel_structure_to_earth",
+  "structure_double_earth",
+  "all_metallic_parts",
+  "solar_array_tilt_angle",
+  "array_foundation_quality",
+  "partial_shadow_noted_if_any",
+  "array_accessible",
+  "cables_are_terminated_through_lugs_and_are_tight",
+  "open_circuit_voltage",
+  "column_break_77",
+  "dc_spd_to_earth",
+  "la_to_earth",
+  "ac_spd_to_earth",
+  "acdb_to_earth",
+  "solar_array_orientation",
+  "min_height_of_the_array",
+  "exposed_wiring_are_closed_and_sealed",
+  "ac_isolator_or_changeover_installed_and_connections_are_tight",
+  "battery_voltage",
+  "photos_given_to_office",
+  "ac_output_voltage_section",
+  "rn",
+  "yn",
+  "bn",
+  "column_break_98",
+  "ne",
+  "ll",
+  "section_break_101",
+  "remarks",
+  "section_break_103",
+  "prepared_by",
+  "verified_by",
+  "column_break_106",
+  "prepared_date",
+  "verified_date",
+  "section_break_109",
+  "installation_photo",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Link",
+   "label": "Company Name",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_5",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fetch_from": "customer_name.email_id",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fetch_from": "customer_name.latitude",
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fetch_from": "customer_name.consumer_number",
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "column_break_10",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer_name.mobile_no",
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fetch_from": "sales_order_id.customer_address",
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "fetch_from": "customer_name.longitude",
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "project_details_section",
+   "fieldtype": "Section Break",
+   "label": "Project Details"
+  },
+  {
+   "default": "On Grid",
+   "fieldname": "project_type",
+   "fieldtype": "Select",
+   "label": "Project Type",
+   "options": "\nOn Grid\nOf Grid"
+  },
+  {
+   "fetch_from": "installation_schedule_no.installation_scheduled_on",
+   "fieldname": "installation_start_date",
+   "fieldtype": "Date",
+   "label": "Installation Start Date"
+  },
+  {
+   "fetch_from": "sales_order_id.type_of_roof",
+   "fetch_if_empty": 1,
+   "fieldname": "type_of_roof",
+   "fieldtype": "Select",
+   "label": "Type of Roof",
+   "options": "\nFlat\nTruss\nRCC - Flat\nRCC - Slope\nSheet"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "installed_item.item_capacity",
+   "fieldname": "project_capacity",
+   "fieldtype": "Data",
+   "label": "Project Capacity"
+  },
+  {
+   "fieldname": "date_of_completion",
+   "fieldtype": "Date",
+   "label": "Date of Completion"
+  },
+  {
+   "fieldname": "solar_module_section",
+   "fieldtype": "Section Break",
+   "label": "Solar Module"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Link",
+   "label": "Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "column_break_24",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "label": "Model"
+  },
+  {
+   "fieldname": "numbers",
+   "fieldtype": "Data",
+   "label": "Numbers"
+  },
+  {
+   "fieldname": "section_break_27",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "no_of_string_per_module",
+   "fieldtype": "Table",
+   "label": "No of String Per Module",
+   "options": "String per Module"
+  },
+  {
+   "fieldname": "section_break_29",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "solar_module_series_numbers",
+   "fieldtype": "Table",
+   "label": "Solar Module Series Numbers",
+   "options": "CR Solar Serial No"
+  },
+  {
+   "fieldname": "section_break_31",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "inverter_details",
+   "fieldtype": "Table",
+   "label": "Inverter Details",
+   "options": "Inverter Details"
+  },
+  {
+   "fieldname": "section_break_33",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "battery_serial_nos",
+   "fieldtype": "Table",
+   "label": "Battery Serial Nos",
+   "options": "Battery Series No"
+  },
+  {
+   "fieldname": "dcdb_section",
+   "fieldtype": "Section Break",
+   "label": "DCDB"
+  },
+  {
+   "fieldname": "mcb_rating",
+   "fieldtype": "Data",
+   "label": "MCB Rating"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dcdb_make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "column_break_39",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "nos",
+   "fieldtype": "Data",
+   "label": "Nos"
+  },
+  {
+   "fieldname": "spd_rating",
+   "fieldtype": "Data",
+   "label": "SPD Rating"
+  },
+  {
+   "fieldname": "dc_cable_size",
+   "fieldtype": "Data",
+   "label": "DC Cable Size"
+  },
+  {
+   "fieldname": "dc_cable_length",
+   "fieldtype": "Data",
+   "label": "DC Cable Length"
+  },
+  {
+   "fieldname": "spd_make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "array_to_ajb_size",
+   "fieldtype": "Data",
+   "label": "Array to AJB"
+  },
+  {
+   "fieldname": "array_to_ajb_length",
+   "fieldtype": "Data",
+   "label": "Array to AJB"
+  },
+  {
+   "fieldname": "spd_nos",
+   "fieldtype": "Data",
+   "label": "Nos"
+  },
+  {
+   "fieldname": "ajb_to_inverter_size",
+   "fieldtype": "Data",
+   "label": "AJB To Inverter "
+  },
+  {
+   "fieldname": "ajb_to_inveretr_length",
+   "fieldtype": "Data",
+   "label": "AJB To Inverter"
+  },
+  {
+   "fieldname": "acdb_section",
+   "fieldtype": "Section Break",
+   "label": "ACDB"
+  },
+  {
+   "fieldname": "mccb_rating",
+   "fieldtype": "Data",
+   "label": "MCB/MCCB Rating"
+  },
+  {
+   "fieldname": "ac_cable_size",
+   "fieldtype": "Data",
+   "label": "AC Cable Size"
+  },
+  {
+   "fieldname": "ac_cable_length",
+   "fieldtype": "Data",
+   "label": "AC Cable Length"
+  },
+  {
+   "fieldname": "column_break_54",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acb_make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "inverter_to_acdb_size",
+   "fieldtype": "Data",
+   "label": "Inverter to ACDB "
+  },
+  {
+   "fieldname": "inverter_to_acdb_length",
+   "fieldtype": "Data",
+   "label": "Inverter to ACDB "
+  },
+  {
+   "fieldname": "column_break_58",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acdb_nos",
+   "fieldtype": "Data",
+   "label": "Nos"
+  },
+  {
+   "fieldname": "acdb_to_meter_size",
+   "fieldtype": "Data",
+   "label": "ACDB To Meter"
+  },
+  {
+   "fieldname": "acdb_to_meter_length",
+   "fieldtype": "Data",
+   "label": "ACDB To Meter"
+  },
+  {
+   "fieldname": "solar_meter_section",
+   "fieldtype": "Section Break",
+   "label": "Solar Meter"
+  },
+  {
+   "fieldname": "solar_meter_make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "column_break_64",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "solar_meter_serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "column_break_66",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "solar_meter_initial_reading",
+   "fieldtype": "Data",
+   "label": "Initial Reading"
+  },
+  {
+   "fieldname": "earthing_section",
+   "fieldtype": "Section Break",
+   "label": "Earthing"
+  },
+  {
+   "fieldname": "no_of_earth_pits",
+   "fieldtype": "Data",
+   "label": "No of Earth Pits"
+  },
+  {
+   "fieldname": "column_break_70",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "no_of_lightening_arresters",
+   "fieldtype": "Data",
+   "label": "No of Lightening Arresters"
+  },
+  {
+   "fieldname": "earthing_connections_section",
+   "fieldtype": "Section Break",
+   "label": "Earthing Connections"
+  },
+  {
+   "default": "0",
+   "fieldname": "panel_to_panel",
+   "fieldtype": "Check",
+   "label": "Panel to Panel"
+  },
+  {
+   "default": "0",
+   "fieldname": "panel_structure_to_earth",
+   "fieldtype": "Check",
+   "label": "Panel Structure to Earth"
+  },
+  {
+   "default": "0",
+   "fieldname": "structure_double_earth",
+   "fieldtype": "Check",
+   "label": "Structure double earth"
+  },
+  {
+   "default": "0",
+   "fieldname": "all_metallic_parts",
+   "fieldtype": "Check",
+   "label": "All metallic parts"
+  },
+  {
+   "fieldname": "column_break_77",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "dc_spd_to_earth",
+   "fieldtype": "Check",
+   "label": "DC SPD to Earth"
+  },
+  {
+   "default": "0",
+   "fieldname": "la_to_earth",
+   "fieldtype": "Check",
+   "label": "L.A to Earth"
+  },
+  {
+   "default": "0",
+   "fieldname": "ac_spd_to_earth",
+   "fieldtype": "Check",
+   "label": "AC SPD to Earth"
+  },
+  {
+   "default": "0",
+   "fieldname": "acdb_to_earth",
+   "fieldtype": "Check",
+   "label": "ACDB to earth"
+  },
+  {
+   "fieldname": "solar_array_tilt_angle",
+   "fieldtype": "Data",
+   "label": "Solar array tilt angle"
+  },
+  {
+   "fieldname": "array_foundation_quality",
+   "fieldtype": "Data",
+   "label": "Array foundation quality"
+  },
+  {
+   "fieldname": "solar_array_orientation",
+   "fieldtype": "Data",
+   "label": "Solar array orientation"
+  },
+  {
+   "fieldname": "min_height_of_the_array",
+   "fieldtype": "Data",
+   "label": "Min height of the array"
+  },
+  {
+   "fieldname": "partial_shadow_noted_if_any",
+   "fieldtype": "Data",
+   "label": "Partial shadow noted if any"
+  },
+  {
+   "description": " for inspection, operation &maintenance?",
+   "fieldname": "array_accessible",
+   "fieldtype": "Select",
+   "label": "Array accessible",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "cables_are_terminated_through_lugs_and_are_tight",
+   "fieldtype": "Select",
+   "label": "Cables are terminated through lugs and are tight",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "exposed_wiring_are_closed_and_sealed",
+   "fieldtype": "Select",
+   "label": "Exposed wiring are closed and sealed",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "ac_isolator_or_changeover_installed_and_connections_are_tight",
+   "fieldtype": "Select",
+   "label": "AC Isolator or Changeover installed and connections are tight",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "open_circuit_voltage",
+   "fieldtype": "Data",
+   "label": "Open circuit voltage"
+  },
+  {
+   "fieldname": "battery_voltage",
+   "fieldtype": "Data",
+   "label": "Battery Voltage"
+  },
+  {
+   "description": "Pre and Post Installation Photos",
+   "fieldname": "photos_given_to_office",
+   "fieldtype": "Select",
+   "label": "Photos Given To Office",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "ac_output_voltage_section",
+   "fieldtype": "Section Break",
+   "label": "AC Output Voltage"
+  },
+  {
+   "fieldname": "rn",
+   "fieldtype": "Data",
+   "label": "R-N"
+  },
+  {
+   "fieldname": "yn",
+   "fieldtype": "Data",
+   "label": "Y-N"
+  },
+  {
+   "fieldname": "bn",
+   "fieldtype": "Data",
+   "label": "B-N"
+  },
+  {
+   "fieldname": "column_break_98",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ne",
+   "fieldtype": "Data",
+   "label": "N-E"
+  },
+  {
+   "fieldname": "ll",
+   "fieldtype": "Data",
+   "label": "L-L"
+  },
+  {
+   "fieldname": "section_break_101",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "section_break_103",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "user",
+   "fieldname": "prepared_by",
+   "fieldtype": "Link",
+   "label": "Prepared By",
+   "options": "User"
+  },
+  {
+   "fieldname": "verified_by",
+   "fieldtype": "Link",
+   "label": "Verified By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_106",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "prepared_date",
+   "fieldtype": "Date",
+   "label": "Prepared Date"
+  },
+  {
+   "fieldname": "verified_date",
+   "fieldtype": "Date",
+   "label": "Verified Date"
+  },
+  {
+   "fieldname": "section_break_109",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "installation_photo",
+   "fieldtype": "Attach",
+   "label": "Installation Photo"
+  },
+  {
+   "fieldname": "installation_schedule_no",
+   "fieldtype": "Link",
+   "label": "Installation Schedule No",
+   "options": "Schedule Installation"
+  },
+  {
+   "fetch_from": "sales_order_id.bom_item",
+   "fieldname": "installed_item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Installed Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "sales_order_id",
+   "fieldtype": "Link",
+   "hidden": 1,
+   "label": "Sales Order ID",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Installation Report",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-20 22:11:17.474854",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Installation Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

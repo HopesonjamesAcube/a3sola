@@ -1,0 +1,22 @@
+[
+ {
+  "building_type": "Single Storied",
+  "docstatus": 0,
+  "doctype": "Building Type",
+  "modified": "2022-09-27 20:37:21.546678",
+  "name": "Single Storied",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ },
+ {
+  "building_type": "Multi Storied",
+  "docstatus": 0,
+  "doctype": "Building Type",
+  "modified": "2022-09-27 20:37:39.580341",
+  "name": "Multi Storied",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null
+ }
+]

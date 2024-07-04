@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-03 13:53:30.421675",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "amount",
+  "status",
+  "divident__amount_for_general_manager",
+  "divident_amount_for_zonal_manager",
+  "divident_amount_for_regional_manager",
+  "divident_amount_for_area_manager",
+  "divident_amount_for_marketing_manager",
+  "divident_amount_for_telecaller"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Float",
+   "label": "Amount"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "divident__amount_for_general_manager",
+   "fieldtype": "Float",
+   "label": "Divident  Amount for General Manager"
+  },
+  {
+   "fieldname": "divident_amount_for_zonal_manager",
+   "fieldtype": "Float",
+   "label": "Divident amount for Zonal Manager"
+  },
+  {
+   "fieldname": "divident_amount_for_regional_manager",
+   "fieldtype": "Float",
+   "label": "Divident Amount for Regional Manager"
+  },
+  {
+   "fieldname": "divident_amount_for_area_manager",
+   "fieldtype": "Float",
+   "label": "Divident Amount for Area Manager"
+  },
+  {
+   "fieldname": "divident_amount_for_marketing_manager",
+   "fieldtype": "Float",
+   "label": "Divident Amount for Marketing Manager"
+  },
+  {
+   "fieldname": "divident_amount_for_telecaller",
+   "fieldtype": "Float",
+   "label": "Divident Amount for Telecaller"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-03 14:40:54.252555",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Daily Sales",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

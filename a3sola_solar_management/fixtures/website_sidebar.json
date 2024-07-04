@@ -1,0 +1,38 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Website Sidebar",
+  "modified": "2023-08-18 10:18:19.168543",
+  "name": "A3Sola Documentation",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "sidebar_items": [
+   {
+    "group": null,
+    "parent": "A3Sola Documentation",
+    "parentfield": "sidebar_items",
+    "parenttype": "Website Sidebar",
+    "route": "training-videos",
+    "title": "Training"
+   },
+   {
+    "group": null,
+    "parent": "A3Sola Documentation",
+    "parentfield": "sidebar_items",
+    "parenttype": "Website Sidebar",
+    "route": "/a3sola-documentation?id=Sales Invoice",
+    "title": "Sales Invoice"
+   },
+   {
+    "group": null,
+    "parent": "A3Sola Documentation",
+    "parentfield": "sidebar_items",
+    "parenttype": "Website Sidebar",
+    "route": "/a3sola-documentation?id=Holiday List",
+    "title": "Holiday List"
+   }
+  ],
+  "title": "A3Sola Documentation"
+ }
+]

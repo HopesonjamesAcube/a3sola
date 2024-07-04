@@ -1,0 +1,178 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{FY}-OC/{###}",
+ "creation": "2024-03-12 16:06:24.643791",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "consumer_number",
+  "phone_number",
+  "section",
+  "column_break_aznzt",
+  "customer",
+  "posting_date",
+  "email",
+  "category",
+  "section_break_xdmzx",
+  "system_description",
+  "mounting_structure_details_section",
+  "structure_details",
+  "commercial_details_section",
+  "solar_pv_plant_system_cost",
+  "solar_panel_mounting_structure__hdgi",
+  "frp_water_lines_access_way",
+  "total_project_cost_excl_tax",
+  "column_break_es1z6",
+  "solar_pv_plant_system_installation_cost",
+  "sheet_top_al_structure",
+  "electrical_inspectorate_approval",
+  "per_watt_cost"
+ ],
+ "fields": [
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "column_break_aznzt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "section_break_xdmzx",
+   "fieldtype": "Section Break",
+   "label": "Item Details"
+  },
+  {
+   "fieldname": "system_description",
+   "fieldtype": "Table",
+   "label": "System Description",
+   "options": "System Specification"
+  },
+  {
+   "fieldname": "commercial_details_section",
+   "fieldtype": "Section Break",
+   "label": "Commercial Details"
+  },
+  {
+   "fieldname": "solar_pv_plant_system_cost",
+   "fieldtype": "Data",
+   "label": "Solar PV Plant System Cost"
+  },
+  {
+   "fieldname": "solar_panel_mounting_structure__hdgi",
+   "fieldtype": "Data",
+   "label": "Solar Panel Mounting Structure - HDGI"
+  },
+  {
+   "fieldname": "frp_water_lines_access_way",
+   "fieldtype": "Data",
+   "label": "FRP + Water lines +Access Way"
+  },
+  {
+   "fieldname": "total_project_cost_excl_tax",
+   "fieldtype": "Data",
+   "label": "Total Project Cost Excl Tax"
+  },
+  {
+   "fieldname": "column_break_es1z6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "solar_pv_plant_system_installation_cost",
+   "fieldtype": "Data",
+   "label": "Solar PV Plant System Installation Cost"
+  },
+  {
+   "fieldname": "sheet_top_al_structure",
+   "fieldtype": "Data",
+   "label": "Sheet top Al structure"
+  },
+  {
+   "fieldname": "electrical_inspectorate_approval",
+   "fieldtype": "Data",
+   "label": "Electrical Inspectorate Approval"
+  },
+  {
+   "fieldname": "per_watt_cost",
+   "fieldtype": "Data",
+   "label": "Per Watt Cost"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "mounting_structure_details_section",
+   "fieldtype": "Section Break",
+   "label": "Mounting Structure Details"
+  },
+  {
+   "fieldname": "structure_details",
+   "fieldtype": "Table",
+   "label": "Structure Details",
+   "options": "System Specification"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-14 10:23:39.432761",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Order Confirmation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

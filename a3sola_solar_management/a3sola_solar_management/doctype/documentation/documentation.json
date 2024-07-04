@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-12 11:29:41.155900",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "show_on_about",
+  "show_on_website",
+  "documentation_contents_section",
+  "a3sola_documentation"
+ ],
+ "fields": [
+  {
+   "fieldname": "a3sola_documentation",
+   "fieldtype": "Table",
+   "label": "A3sola Documentation",
+   "options": "Documentation Contents"
+  },
+  {
+   "default": "0",
+   "fieldname": "show_on_about",
+   "fieldtype": "Check",
+   "label": "Show on Help",
+   "permlevel": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "show_on_website",
+   "fieldtype": "Check",
+   "label": "Show on Website",
+   "permlevel": 1
+  },
+  {
+   "fieldname": "documentation_contents_section",
+   "fieldtype": "Section Break",
+   "label": "Documentation Contents"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-08-12 11:44:49.047922",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Documentation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

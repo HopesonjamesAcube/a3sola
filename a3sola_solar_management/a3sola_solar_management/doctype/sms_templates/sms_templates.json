@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-03-22 10:51:48.196349",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document",
+  "template_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "document",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Document",
+   "options": "\nProject\nLead\nOpportunity"
+  },
+  {
+   "fieldname": "template_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Template ID"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-03-22 11:52:49.053861",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "SMS Templates",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

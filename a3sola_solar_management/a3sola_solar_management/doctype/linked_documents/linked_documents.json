@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-19 11:19:38.924007",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_name",
+  "document_id",
+  "docname",
+  "docid"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Document Name"
+  },
+  {
+   "fieldname": "document_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Document Id"
+  },
+  {
+   "fieldname": "docname",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Document Name",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "docid",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Document_id",
+   "options": "docname"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-27 18:34:50.308417",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Linked Documents",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

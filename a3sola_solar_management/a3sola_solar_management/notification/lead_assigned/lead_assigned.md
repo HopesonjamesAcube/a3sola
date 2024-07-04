@@ -1,0 +1,1 @@
+<b>A new lead is assigned for you. Please follow up on{% if doc.contact_date %} {{doc.contact_date}}{% endif %}.</b>

@@ -1,0 +1,190 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:PR-{consumer_name}-{###}",
+ "creation": "2023-02-13 11:29:29.353107",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_information_section",
+  "consumer_name",
+  "consumer_number",
+  "column_break_4",
+  "section_office_or_circle",
+  "project_id",
+  "solar_module_details_section",
+  "manufacturer",
+  "capacity",
+  "model_reference",
+  "cell_dimension_1",
+  "cell_dimension_2",
+  "cell_dimension_3",
+  "column_break_11",
+  "cell_area_in_module",
+  "number_of_modules",
+  "efficiency",
+  "array_number",
+  "area",
+  "inverter_measurements_section",
+  "table_20",
+  "inverter_efficiency",
+  "pr_ac",
+  "pr_dc",
+  "column_break_23",
+  "average_wdc"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_information_section",
+   "fieldtype": "Section Break",
+   "label": "General Information"
+  },
+  {
+   "fieldname": "consumer_name",
+   "fieldtype": "Data",
+   "label": "Consumer Name"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_office_or_circle",
+   "fieldtype": "Data",
+   "label": "Section Office or Circle"
+  },
+  {
+   "fieldname": "solar_module_details_section",
+   "fieldtype": "Section Break",
+   "label": "Solar Module Details"
+  },
+  {
+   "fieldname": "manufacturer",
+   "fieldtype": "Data",
+   "label": "Manufacturer"
+  },
+  {
+   "fieldname": "model_reference",
+   "fieldtype": "Data",
+   "label": "Model Reference"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "cell_area_in_module",
+   "fieldtype": "Data",
+   "label": "Cell Area in Module"
+  },
+  {
+   "fieldname": "number_of_modules",
+   "fieldtype": "Data",
+   "label": "Number Of Modules"
+  },
+  {
+   "fieldname": "efficiency",
+   "fieldtype": "Float",
+   "label": "Efficiency"
+  },
+  {
+   "fieldname": "array_number",
+   "fieldtype": "Data",
+   "label": "Array Number"
+  },
+  {
+   "fieldname": "area",
+   "fieldtype": "Float",
+   "label": "Area"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cell_dimension_1",
+   "fieldtype": "Data",
+   "label": "Cell Dimension 1"
+  },
+  {
+   "fieldname": "cell_dimension_2",
+   "fieldtype": "Data",
+   "label": "Cell Dimension 2"
+  },
+  {
+   "fieldname": "cell_dimension_3",
+   "fieldtype": "Data",
+   "label": "Cell Dimension 3"
+  },
+  {
+   "fieldname": "inverter_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Inverter Measurements"
+  },
+  {
+   "fieldname": "table_20",
+   "fieldtype": "Table",
+   "options": "Inverter Measurements"
+  },
+  {
+   "fieldname": "pr_dc",
+   "fieldtype": "Data",
+   "label": "PR dc"
+  },
+  {
+   "fieldname": "pr_ac",
+   "fieldtype": "Data",
+   "label": "PR ac"
+  },
+  {
+   "fieldname": "average_wdc",
+   "fieldtype": "Float",
+   "label": "Average Wdc"
+  },
+  {
+   "fieldname": "inverter_efficiency",
+   "fieldtype": "Float",
+   "label": "Inverter Efficiency"
+  },
+  {
+   "fieldname": "column_break_23",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-02-28 16:28:34.094430",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Performance Ratio Test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

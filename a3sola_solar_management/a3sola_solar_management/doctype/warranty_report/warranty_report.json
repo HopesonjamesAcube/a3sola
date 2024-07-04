@@ -1,0 +1,184 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format: WR-{customer_name}-{####}",
+ "creation": "2022-03-26 10:38:43.232642",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "date",
+  "section_break_3",
+  "item_name",
+  "invoice_no",
+  "invoice_number",
+  "column_break_6",
+  "capacity",
+  "invoice_date",
+  "pv_module_details_section",
+  "pv_module_make",
+  "pv_module_quantity",
+  "pv_module_capacity",
+  "column_break_11",
+  "pv_sl_no",
+  "pv_module_sl_no",
+  "inverter_details_section",
+  "inverter_make",
+  "inverter_capacity",
+  "column_break_18",
+  "inverter_sl_no"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fetch_from": "item_name.capacity",
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "label": "Capacity"
+  },
+  {
+   "fetch_from": "invoice_no.posting_date",
+   "fieldname": "invoice_date",
+   "fieldtype": "Data",
+   "label": "Invoice Date"
+  },
+  {
+   "fieldname": "inverter_capacity",
+   "fieldtype": "Data",
+   "label": "Inverter Capacity"
+  },
+  {
+   "fieldname": "pv_module_make",
+   "fieldtype": "Data",
+   "label": "PV Module Make"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "item_name",
+   "fieldtype": "Link",
+   "label": "Item Name",
+   "options": "Item"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Link",
+   "label": "Invoice No",
+   "options": "Sales Invoice",
+   "read_only": 1
+  },
+  {
+   "fieldname": "inverter_make",
+   "fieldtype": "Data",
+   "label": "Inverter Make"
+  },
+  {
+   "fieldname": "inverter_sl_no",
+   "fieldtype": "Table",
+   "label": "Inverter Sl No",
+   "options": "WR Inverter"
+  },
+  {
+   "fieldname": "pv_module_capacity",
+   "fieldtype": "Data",
+   "label": "PV Module Capacity"
+  },
+  {
+   "fieldname": "pv_module_sl_no",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "PV Module Sl No"
+  },
+  {
+   "fetch_from": "invoice_no.customer",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "pv_module_quantity",
+   "fieldtype": "Data",
+   "label": "PV Module Quantity"
+  },
+  {
+   "fieldname": "pv_sl_no",
+   "fieldtype": "Table",
+   "label": "PV Module Sl No",
+   "options": "WR PV Serial No"
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "pv_module_details_section",
+   "fieldtype": "Section Break",
+   "label": "PV Module Details"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "inverter_details_section",
+   "fieldtype": "Section Break",
+   "label": "Inverter Details"
+  },
+  {
+   "fieldname": "column_break_18",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.invoice_no == null",
+   "fieldname": "invoice_number",
+   "fieldtype": "Data",
+   "label": "Invoice Number"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-28 09:39:02.278024",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Warranty Report",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

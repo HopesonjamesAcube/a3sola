@@ -1,0 +1,147 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-06-07 14:30:52.414116",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details_section",
+  "called_number",
+  "caller_number",
+  "total_call_duration",
+  "call_date",
+  "call_status",
+  "recording_url",
+  "column_break_f8wbd",
+  "wav_and_agent_number",
+  "call_uuid",
+  "call_start_time",
+  "call_end_time",
+  "conversation_duration",
+  "dtmfseq"
+ ],
+ "fields": [
+  {
+   "fieldname": "basic_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fieldname": "called_number",
+   "fieldtype": "Data",
+   "label": "Called Number"
+  },
+  {
+   "fieldname": "caller_number",
+   "fieldtype": "Data",
+   "label": "Caller number"
+  },
+  {
+   "fieldname": "total_call_duration",
+   "fieldtype": "Data",
+   "label": "Total Call Duration"
+  },
+  {
+   "fieldname": "call_date",
+   "fieldtype": "Data",
+   "label": "Call Date"
+  },
+  {
+   "fieldname": "call_status",
+   "fieldtype": "Data",
+   "label": "Call Status"
+  },
+  {
+   "fieldname": "column_break_f8wbd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "recording_url",
+   "fieldtype": "Data",
+   "label": "Recording Url"
+  },
+  {
+   "fieldname": "wav_and_agent_number",
+   "fieldtype": "Data",
+   "label": "Wav And Agent Number"
+  },
+  {
+   "fieldname": "call_uuid",
+   "fieldtype": "Data",
+   "label": "Call UUID"
+  },
+  {
+   "fieldname": "call_start_time",
+   "fieldtype": "Data",
+   "label": "Call Start Time"
+  },
+  {
+   "fieldname": "call_end_time",
+   "fieldtype": "Data",
+   "label": "Call End Time"
+  },
+  {
+   "fieldname": "conversation_duration",
+   "fieldtype": "Data",
+   "label": "Conversation Duration"
+  },
+  {
+   "fieldname": "dtmfseq",
+   "fieldtype": "Data",
+   "label": "DtmfSeq"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-06 10:27:19.797058",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Customer Call Records",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Guest",
+   "select": 1,
+   "set_user_permissions": 1,
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Main User",
+   "select": 1,
+   "set_user_permissions": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

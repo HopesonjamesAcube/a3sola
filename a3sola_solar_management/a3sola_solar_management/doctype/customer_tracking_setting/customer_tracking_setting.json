@@ -1,0 +1,277 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-12-05 10:18:36.701894",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section",
+  "about_us",
+  "address",
+  "abbreviation",
+  "fav_icon",
+  "enabled",
+  "color_theme",
+  "color_theme_2",
+  "c_column",
+  "phone",
+  "data_3",
+  "font",
+  "email",
+  "about_us_image",
+  "column_break_4",
+  "custom_menu",
+  "tracking_page_pictures_section",
+  "tracking_page_pictures",
+  "contact_information_section",
+  "contact_phone",
+  "addr",
+  "wd_start",
+  "working_hour_start_time",
+  "terms",
+  "column_break_16",
+  "contact_email",
+  "city",
+  "wd_end",
+  "working_hour_end_time",
+  "bank_details_section",
+  "bank_name",
+  "account_number",
+  "ifsc_code",
+  "column_break_ydkqe",
+  "branch",
+  "payment_qr",
+  "communication_section",
+  "enable_chatbot",
+  "src"
+ ],
+ "fields": [
+  {
+   "default": "0",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "color_theme",
+   "fieldtype": "Color",
+   "hidden": 1,
+   "label": " Dark Color Theme"
+  },
+  {
+   "fieldname": "c_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "data_3",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "font",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Font"
+  },
+  {
+   "fieldname": "column_break_4",
+   "fieldtype": "Section Break",
+   "label": "Custom Menu Items"
+  },
+  {
+   "fieldname": "custom_menu",
+   "fieldtype": "Table",
+   "label": "Custom Menu",
+   "options": "Custom Menu Items"
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Link",
+   "label": "Terms and Conditions",
+   "options": "Terms and Conditions"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "hidden": 1,
+   "label": "Address"
+  },
+  {
+   "fieldname": "color_theme_2",
+   "fieldtype": "Color",
+   "hidden": 1,
+   "label": "Light Color Theme"
+  },
+  {
+   "fieldname": "phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "contact_information_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Information"
+  },
+  {
+   "fieldname": "contact_phone",
+   "fieldtype": "Data",
+   "label": "Phone"
+  },
+  {
+   "fieldname": "wd_start",
+   "fieldtype": "Select",
+   "label": "Working Days-Start",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "working_hour_start_time",
+   "fieldtype": "Time",
+   "label": "Working Hour start time"
+  },
+  {
+   "fieldname": "column_break_16",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact_email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "wd_end",
+   "fieldtype": "Select",
+   "label": "Working Days-End",
+   "options": "Monday\nTuesday\nWednesday\nThursday\nFriday\nSaturday\nSunday"
+  },
+  {
+   "fieldname": "working_hour_end_time",
+   "fieldtype": "Time",
+   "label": "Working Hour end time"
+  },
+  {
+   "fieldname": "tracking_page_pictures",
+   "fieldtype": "Table",
+   "label": "Tracking Page Pictures",
+   "options": "Tracking page Images"
+  },
+  {
+   "fieldname": "tracking_page_pictures_section",
+   "fieldtype": "Section Break",
+   "label": "Tracking Page Pictures"
+  },
+  {
+   "fieldname": "general_section",
+   "fieldtype": "Section Break",
+   "label": "General"
+  },
+  {
+   "fieldname": "payment_qr",
+   "fieldtype": "Attach",
+   "label": "Payment QR"
+  },
+  {
+   "fieldname": "about_us",
+   "fieldtype": "Small Text",
+   "label": "About Us"
+  },
+  {
+   "fieldname": "bank_details_section",
+   "fieldtype": "Section Break",
+   "label": "Bank Details"
+  },
+  {
+   "fieldname": "bank_name",
+   "fieldtype": "Data",
+   "label": "Bank Name"
+  },
+  {
+   "fieldname": "account_number",
+   "fieldtype": "Data",
+   "label": "Account Number"
+  },
+  {
+   "fieldname": "ifsc_code",
+   "fieldtype": "Data",
+   "label": "IFSC Code"
+  },
+  {
+   "fieldname": "column_break_ydkqe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Data",
+   "label": "Branch"
+  },
+  {
+   "fieldname": "abbreviation",
+   "fieldtype": "Data",
+   "label": "abbreviation"
+  },
+  {
+   "fieldname": "addr",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "about_us_image",
+   "fieldtype": "Attach",
+   "label": "About us Image"
+  },
+  {
+   "fieldname": "fav_icon",
+   "fieldtype": "Attach",
+   "label": "Fav Icon"
+  },
+  {
+   "fieldname": "communication_section",
+   "fieldtype": "Section Break",
+   "label": "Communication"
+  },
+  {
+   "default": "0",
+   "fieldname": "enable_chatbot",
+   "fieldtype": "Check",
+   "label": "Enable Chatbot"
+  },
+  {
+   "fieldname": "src",
+   "fieldtype": "Data",
+   "label": "Freshchat Src"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-05-25 13:01:30.446817",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Customer Tracking Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-08-12 13:34:02.300214",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "documentation_details_section",
+  "title",
+  "module",
+  "column_break_vcq3d",
+  "subtitle",
+  "image",
+  "references_section",
+  "video",
+  "description",
+  "settings_section",
+  "view_on_website",
+  "view_on_documentation",
+  "column_break_nluke",
+  "publish"
+ ],
+ "fields": [
+  {
+   "fieldname": "documentation_details_section",
+   "fieldtype": "Section Break",
+   "label": "Documentation Details"
+  },
+  {
+   "fieldname": "module",
+   "fieldtype": "Link",
+   "label": "Module",
+   "options": "Module Def"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "subtitle",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Subtitle"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "HTML Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "Image"
+  },
+  {
+   "fieldname": "video",
+   "fieldtype": "Data",
+   "label": "Video",
+   "options": "URL"
+  },
+  {
+   "default": "0",
+   "fieldname": "view_on_website",
+   "fieldtype": "Check",
+   "label": "View on Website"
+  },
+  {
+   "default": "0",
+   "fieldname": "view_on_documentation",
+   "fieldtype": "Check",
+   "label": "View on Documentation"
+  },
+  {
+   "default": "0",
+   "fieldname": "publish",
+   "fieldtype": "Check",
+   "label": "Publish"
+  },
+  {
+   "fieldname": "column_break_vcq3d",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "references_section",
+   "fieldtype": "Section Break",
+   "label": "References"
+  },
+  {
+   "fieldname": "settings_section",
+   "fieldtype": "Section Break",
+   "label": "Settings"
+  },
+  {
+   "fieldname": "column_break_nluke",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-08-16 15:12:10.720822",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Customized Documentation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

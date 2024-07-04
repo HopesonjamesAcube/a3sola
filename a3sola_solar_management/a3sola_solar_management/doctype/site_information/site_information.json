@@ -1,0 +1,349 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{customer}-{####}",
+ "creation": "2022-06-16 15:27:10.058017",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "basic_details",
+  "customer",
+  "column_break_2",
+  "project_id",
+  "opportunity_id",
+  "lead_id",
+  "section_break_4",
+  "latitude",
+  "type_of_roof",
+  "roof_top_area",
+  "roof_inclination",
+  "shading",
+  "structure_work",
+  "access_of_site",
+  "south_facing_module",
+  "parapet_height",
+  "column_break_12",
+  "longitude",
+  "water_availabiity",
+  "nature_of_soil",
+  "sufficient_area",
+  "cable_length_1",
+  "cable_length_2",
+  "cable_length_3",
+  "customer_requirements",
+  "roof_and_structure_details_section",
+  "availability_of_south_facing_module_mounting_area",
+  "roof_type",
+  "parapet_wall_height",
+  "column_break_30",
+  "building_height_or_number_of_floor",
+  "roof_angle_of_inclination",
+  "shade_free_area_available",
+  "cable_routing_details_section",
+  "cable_routing_confirmed_by_client",
+  "spv_module_to_ajb_cable_lenght",
+  "inverter_to_acdb_cable_length",
+  "column_break_37",
+  "ajb_to_inverter_cable_length",
+  "acdb_to_ex_lt_panel_or_db_cable_length",
+  "earthing_and_lightening_arrester_details_section",
+  "earthing_cable_length",
+  "earth_pit_location_confirmed_by_client",
+  "column_break_43",
+  "la_down_conductor_length"
+ ],
+ "fields": [
+  {
+   "fetch_from": "opportunity_id.customer_name",
+   "fetch_if_empty": 1,
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "translatable": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "opportunity_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Opportunity ID",
+   "options": "Opportunity",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Site Details"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Data",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "type_of_roof",
+   "fieldtype": "Select",
+   "label": "Type of Roof",
+   "options": "Flat\nTruss\nRCC - Flat\nRCC - Slope\nSheet"
+  },
+  {
+   "fieldname": "roof_top_area",
+   "fieldtype": "Data",
+   "label": "Roof Top Area"
+  },
+  {
+   "fieldname": "roof_inclination",
+   "fieldtype": "Data",
+   "label": "Roof Inclination"
+  },
+  {
+   "fieldname": "shading",
+   "fieldtype": "Select",
+   "label": "Shading, if any",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "structure_work",
+   "fieldtype": "Select",
+   "label": "Structure Work Required",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "access_of_site",
+   "fieldtype": "Select",
+   "label": "Access of Site",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_12",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Data",
+   "label": "Longitude"
+  },
+  {
+   "fieldname": "water_availabiity",
+   "fieldtype": "Select",
+   "label": "Water Availabiity",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "nature_of_soil",
+   "fieldtype": "Select",
+   "label": "Nature of Soil",
+   "options": "\nHard\nLoose"
+  },
+  {
+   "fieldname": "sufficient_area",
+   "fieldtype": "Select",
+   "label": "Is Sufficient Area Available",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "cable_length_1",
+   "fieldtype": "Data",
+   "label": "Cable Length 1"
+  },
+  {
+   "fieldname": "cable_length_2",
+   "fieldtype": "Data",
+   "label": "Cable Length 2"
+  },
+  {
+   "fieldname": "cable_length_3",
+   "fieldtype": "Data",
+   "label": "Cable Length 3"
+  },
+  {
+   "fieldname": "customer_requirements",
+   "fieldtype": "Small Text",
+   "label": "Customer Requirements"
+  },
+  {
+   "fieldname": "south_facing_module",
+   "fieldtype": "Select",
+   "label": "Availability of South Facing Module Mounting",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "parapet_height",
+   "fieldtype": "Data",
+   "label": "Parapet Wall Height"
+  },
+  {
+   "fieldname": "basic_details",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fetch_from": "opportunity_id.party_name",
+   "fieldname": "lead_id",
+   "fieldtype": "Data",
+   "label": "Lead ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "roof_and_structure_details_section",
+   "fieldtype": "Section Break",
+   "label": "Roof and Structure Details"
+  },
+  {
+   "fieldname": "availability_of_south_facing_module_mounting_area",
+   "fieldtype": "Select",
+   "label": "Availability of South Facing Module Mounting Area",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "roof_type",
+   "fieldtype": "Select",
+   "label": "Roof Type",
+   "options": "\nRCC - Flat\nRCC - Slope\nSheet\nFlat\nTruss"
+  },
+  {
+   "fieldname": "parapet_wall_height",
+   "fieldtype": "Data",
+   "label": "Parapet Wall Height"
+  },
+  {
+   "fieldname": "column_break_30",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "building_height_or_number_of_floor",
+   "fieldtype": "Data",
+   "label": "Building Height or Number of Floor"
+  },
+  {
+   "fieldname": "roof_angle_of_inclination",
+   "fieldtype": "Data",
+   "label": "Roof Angle of Inclination"
+  },
+  {
+   "fieldname": "shade_free_area_available",
+   "fieldtype": "Data",
+   "label": "Shade Free area Available"
+  },
+  {
+   "fieldname": "cable_routing_details_section",
+   "fieldtype": "Section Break",
+   "label": "Cable Routing Details"
+  },
+  {
+   "fieldname": "cable_routing_confirmed_by_client",
+   "fieldtype": "Select",
+   "label": "Cable Routing confirmed by client",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "spv_module_to_ajb_cable_lenght",
+   "fieldtype": "Data",
+   "label": "SPV Module to AJB Cable Lenght"
+  },
+  {
+   "fieldname": "inverter_to_acdb_cable_length",
+   "fieldtype": "Data",
+   "label": "Inverter to ACDB Cable Length"
+  },
+  {
+   "fieldname": "column_break_37",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ajb_to_inverter_cable_length",
+   "fieldtype": "Data",
+   "label": "AJB to Inverter Cable Length"
+  },
+  {
+   "fieldname": "acdb_to_ex_lt_panel_or_db_cable_length",
+   "fieldtype": "Data",
+   "label": "ACDB to EX LT Panel or DB Cable Length"
+  },
+  {
+   "fieldname": "earthing_and_lightening_arrester_details_section",
+   "fieldtype": "Section Break",
+   "label": "Earthing and Lightening Arrester Details"
+  },
+  {
+   "fieldname": "earthing_cable_length",
+   "fieldtype": "Data",
+   "label": "Earthing Cable Length"
+  },
+  {
+   "fieldname": "earth_pit_location_confirmed_by_client",
+   "fieldtype": "Select",
+   "label": "Earth pit location confirmed by client",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_43",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "la_down_conductor_length",
+   "fieldtype": "Data",
+   "label": "LA Down Conductor Length"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-03-27 15:02:53.680614",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Site Information",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Sales User",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2023-06-05 12:11:57.507548",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Opportunity",
+ "enabled": 0,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "A new opportunity is assigned for you. Please follow up on {{doc.next_contact_date}}.",
+ "modified": "2023-06-05 12:16:21.075708",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "update opp",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "contact_by",
+   "receiver_by_role": ""
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "Opportunity {{doc.name}} assigned for you",
+ "value_changed": "whatsapp_number"
+}

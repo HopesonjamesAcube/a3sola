@@ -1,0 +1,54 @@
+[
+ {
+  "automate_project_assignment": 0,
+  "docstatus": 0,
+  "doctype": "Project Settings",
+  "installer_payment_item": "Installer Service",
+  "modified": "2023-09-07 11:43:17.025183",
+  "name": "Project Settings",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "project_naming_series": "PRO-SE-.YYYY.-",
+  "project_users": [],
+  "send_customer_notifications": 0,
+  "template_details": [
+   {
+    "board": "KSEB",
+    "duration": 44,
+    "parent": "Project Settings",
+    "parentfield": "template_details",
+    "parenttype": "Project Settings",
+    "scheme": "SOURA",
+    "select_template": "SOURA"
+   },
+   {
+    "board": "MNRE",
+    "duration": 44,
+    "parent": "Project Settings",
+    "parentfield": "template_details",
+    "parenttype": "Project Settings",
+    "scheme": "MNRE",
+    "select_template": "MNRE"
+   },
+   {
+    "board": null,
+    "duration": 34,
+    "parent": "Project Settings",
+    "parentfield": "template_details",
+    "parenttype": "Project Settings",
+    "scheme": "PRIVATE",
+    "select_template": "PRIVATE PROJECT"
+   },
+   {
+    "board": "KSEB",
+    "duration": 44,
+    "parent": "Project Settings",
+    "parentfield": "template_details",
+    "parenttype": "Project Settings",
+    "scheme": "ANERT",
+    "select_template": "ANERT"
+   }
+  ]
+ }
+]

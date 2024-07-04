@@ -1,0 +1,21 @@
+{
+ "action": "Create Entry",
+ "action_label": "Explore",
+ "creation": "2020-05-14 17:38:27.496696",
+ "description": "<h3>Opportunity</h3>\n\nOpportunity Consist of All The Leads From Persons Who Ready To Install Solar Panel.Click on Explore, to explore Lead.",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2023-06-02 11:34:28.680744",
+ "modified_by": "Administrator",
+ "name": "Create Opportunity",
+ "owner": "Administrator",
+ "reference_document": "Opportunity",
+ "show_form_tour": 0,
+ "show_full_form": 1,
+ "title": "Opportunity Management",
+ "validate_action": 1
+}

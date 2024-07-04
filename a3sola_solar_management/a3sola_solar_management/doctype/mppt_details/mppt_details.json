@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2022-03-18 12:53:05.550475",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "in_volt",
+  "out_volt",
+  "column_break_3",
+  "in_ampere",
+  "out_ampere"
+ ],
+ "fields": [
+  {
+   "fieldname": "in_volt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "In Volt"
+  },
+  {
+   "fieldname": "out_volt",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Out Volt"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "in_ampere",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "In Ampere"
+  },
+  {
+   "fieldname": "out_ampere",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Out Ampere"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-03-18 13:02:54.036451",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "MPPT Details",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

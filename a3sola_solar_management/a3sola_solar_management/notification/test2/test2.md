@@ -1,0 +1,1 @@
+Congratulations..you are selected.. Welcome to BSS GREEN LIFE family..Live and Earn with Green.Your Login id:employee,Pwd: empp..Best wishes for your green journey

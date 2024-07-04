@@ -1,0 +1,290 @@
+[
+ {
+  "assign_condition": "next_contact_by==\"\"",
+  "assignment_days": [
+   {
+    "day": "Monday",
+    "parent": "lead",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Tuesday",
+    "parent": "lead",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Thursday",
+    "parent": "lead",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Wednesday",
+    "parent": "lead",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Friday",
+    "parent": "lead",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   }
+  ],
+  "close_condition": "status==\"Converted\"",
+  "description": "Automatic Assignment",
+  "disabled": 1,
+  "docstatus": 0,
+  "doctype": "Assignment Rule",
+  "document_type": "Lead",
+  "due_date_based_on": null,
+  "field": null,
+  "last_user": "acc@gmail.com",
+  "modified": "2023-06-30 15:51:28.729231",
+  "name": "lead",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "priority": 0,
+  "rule": "Load Balancing",
+  "unassign_condition": "status==\"Converted\"",
+  "users": [
+   {
+    "parent": "lead",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "acc@gmail.com"
+   },
+   {
+    "parent": "lead",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "co@gmail.com"
+   },
+   {
+    "parent": "lead",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "tele@gmail.com"
+   }
+  ]
+ },
+ {
+  "assign_condition": "status==\"Open\"",
+  "assignment_days": [
+   {
+    "day": "Monday",
+    "parent": "Task",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Tuesday",
+    "parent": "Task",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Wednesday",
+    "parent": "Task",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Thursday",
+    "parent": "Task",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Friday",
+    "parent": "Task",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   }
+  ],
+  "close_condition": "",
+  "description": "Automatic Assignment",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Assignment Rule",
+  "document_type": "Task",
+  "due_date_based_on": "exp_end_date",
+  "field": "assigned_user",
+  "last_user": "acc@gmail.com",
+  "modified": "2023-09-01 11:49:42.251189",
+  "name": "Task",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "priority": 0,
+  "rule": "Based on Field",
+  "unassign_condition": "",
+  "users": [
+   {
+    "parent": "Task",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "acc@gmail.com"
+   },
+   {
+    "parent": "Task",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "ae@gmail.com"
+   },
+   {
+    "parent": "Task",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "bsic@gmail.com"
+   }
+  ]
+ },
+ {
+  "assign_condition": "current_status=='Fresh Lead'",
+  "assignment_days": [
+   {
+    "day": "Monday",
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Tuesday",
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Wednesday",
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Thursday",
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Friday",
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   }
+  ],
+  "close_condition": "current_status!=\"Fresh Lead\"",
+  "description": "Lead Load Balancing Automatic Assignment",
+  "disabled": 1,
+  "docstatus": 0,
+  "doctype": "Assignment Rule",
+  "document_type": "Lead",
+  "due_date_based_on": null,
+  "field": null,
+  "last_user": "tele@gmail.com",
+  "modified": "2023-09-01 11:48:00.255658",
+  "name": "Load Balancing Lead Assignment",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "priority": 0,
+  "rule": "Load Balancing",
+  "unassign_condition": "",
+  "users": [
+   {
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "tele@gmail.com"
+   },
+   {
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "acc@gmail.com"
+   },
+   {
+    "parent": "Load Balancing Lead Assignment",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "bsic@gmail.com"
+   }
+  ]
+ },
+ {
+  "assign_condition": "status==\"Open\"",
+  "assignment_days": [
+   {
+    "day": "Monday",
+    "parent": "Opportunity",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Tuesday",
+    "parent": "Opportunity",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Thursday",
+    "parent": "Opportunity",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Wednesday",
+    "parent": "Opportunity",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   },
+   {
+    "day": "Friday",
+    "parent": "Opportunity",
+    "parentfield": "assignment_days",
+    "parenttype": "Assignment Rule"
+   }
+  ],
+  "close_condition": "status==\"Converted\"",
+  "description": "Automatic Assignment",
+  "disabled": 1,
+  "docstatus": 0,
+  "doctype": "Assignment Rule",
+  "document_type": "Opportunity",
+  "due_date_based_on": "contact_date",
+  "field": "contact_by",
+  "last_user": "insta@gmail.com",
+  "modified": "2023-06-30 14:55:33.262478",
+  "name": "Opportunity",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "priority": 0,
+  "rule": "Based on Field",
+  "unassign_condition": "",
+  "users": [
+   {
+    "parent": "Opportunity",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "acc@gmail.com"
+   },
+   {
+    "parent": "Opportunity",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "co@gmail.com"
+   },
+   {
+    "parent": "Opportunity",
+    "parentfield": "users",
+    "parenttype": "Assignment Rule",
+    "user": "tele@gmail.com"
+   }
+  ]
+ }
+]

@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-02-17 11:35:45.877877",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_section_section",
+  "item_kw",
+  "project_cost",
+  "prod_per_day",
+  "column_break_5",
+  "prod_per_month",
+  "echarge_tax",
+  "emi",
+  "bank_deposit_vs_solar_investment_section",
+  "deposit_income_per_year_from_bank",
+  "solar_production_income_per_year",
+  "column_break_11",
+  "solar_production_income_yearly_profit",
+  "25_years_approximate_return"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_section_section",
+   "fieldtype": "Section Break",
+   "label": "General Section"
+  },
+  {
+   "fieldname": "item_kw",
+   "fieldtype": "Data",
+   "label": "Item KW"
+  },
+  {
+   "fieldname": "project_cost",
+   "fieldtype": "Currency",
+   "label": "Project Cost"
+  },
+  {
+   "fieldname": "prod_per_day",
+   "fieldtype": "Int",
+   "label": "Production Per day"
+  },
+  {
+   "fieldname": "prod_per_month",
+   "fieldtype": "Int",
+   "label": "Production Per Month"
+  },
+  {
+   "fieldname": "echarge_tax",
+   "fieldtype": "Currency",
+   "label": "Energy Charges Including Tax"
+  },
+  {
+   "fieldname": "emi",
+   "fieldtype": "Currency",
+   "label": "EMI for 15 years Per month  If take Loan From Bank"
+  },
+  {
+   "fieldname": "bank_deposit_vs_solar_investment_section",
+   "fieldtype": "Section Break",
+   "label": "Bank Deposit VS Solar Investment"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "deposit_income_per_year_from_bank",
+   "fieldtype": "Currency",
+   "label": "Deposit Income per year from Bank"
+  },
+  {
+   "fieldname": "column_break_11",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "solar_production_income_per_year",
+   "fieldtype": "Currency",
+   "label": "Solar Production Income Per Year"
+  },
+  {
+   "fieldname": "solar_production_income_yearly_profit",
+   "fieldtype": "Data",
+   "label": "Solar Production Income Yearly Profit"
+  },
+  {
+   "fieldname": "25_years_approximate_return",
+   "fieldtype": "Currency",
+   "label": "25 Year's approximate Return"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-04-04 09:35:45.273223",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Feasibilty Form",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

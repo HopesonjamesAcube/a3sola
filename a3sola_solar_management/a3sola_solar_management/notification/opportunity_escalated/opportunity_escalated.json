@@ -1,0 +1,35 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status == \"Open\"",
+ "creation": "2022-10-12 14:12:00.753720",
+ "date_changed": "contact_date",
+ "days_in_advance": 1,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Opportunity",
+ "enabled": 0,
+ "event": "Days Before",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "This Opportunity of customer {{doc.customer_name}} has been assigned to {{doc.next_contact_by}} to be completed on or before {{doc.ends_on}}.But status remains the same till Now.",
+ "modified": "2023-06-22 14:47:52.857414",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Opportunity Escalated",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "escalation_manager",
+   "receiver_by_role": ""
+  },
+  {
+   "receiver_by_role": "Main User"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Joyelroy24",
+ "sender_email": "joyelroy24@gmail.com",
+ "subject": "Opportunity {{doc.name}} Escalated"
+}

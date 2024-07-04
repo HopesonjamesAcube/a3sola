@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:STD-TARIFF-{####}",
+ "creation": "2023-10-23 14:56:39.486489",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "km",
+  "column_break_dknx5",
+  "per_km_rate"
+ ],
+ "fields": [
+  {
+   "default": "1",
+   "fieldname": "km",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Km",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_dknx5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "per_km_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Per km Rate",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-23 14:56:39.486489",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Travel Tariff",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

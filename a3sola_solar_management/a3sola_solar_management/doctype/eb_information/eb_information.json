@@ -1,0 +1,284 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EB-{customer}-{####}",
+ "creation": "2022-06-16 16:26:56.850779",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_details_section",
+  "customer",
+  "consumer_number",
+  "column_break_2",
+  "opportunity_id",
+  "lead_id",
+  "section_break_4",
+  "circle",
+  "village",
+  "survey_no",
+  "dist_transformer",
+  "registered_in_kseb_soura",
+  "connected_load",
+  "voltage",
+  "contract_demand",
+  "energy_meter",
+  "incomer_rating",
+  "distance",
+  "ct_class",
+  "spare_feeder",
+  "solar_meter",
+  "column_break_14",
+  "section",
+  "corporation_or_municipality",
+  "code_and_category",
+  "required_pv_connection",
+  "dist_trans_capacity",
+  "territory",
+  "phase",
+  "grid_availability",
+  "permanent_number",
+  "ct_rating",
+  "diesel_generator",
+  "solar_meter_initial_reading",
+  "net_meter",
+  "net_meter_initial_reading",
+  "spin_number"
+ ],
+ "fields": [
+  {
+   "fetch_from": "opportunity_id.customer_name",
+   "fetch_if_empty": 1,
+   "fieldname": "customer",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Customer",
+   "translatable": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "opportunity_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Opportunity ID",
+   "options": "Opportunity"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Consumer Number",
+   "translatable": 1
+  },
+  {
+   "fieldname": "circle",
+   "fieldtype": "Data",
+   "label": "Circle"
+  },
+  {
+   "description": "To which the plant is connected",
+   "fieldname": "dist_transformer",
+   "fieldtype": "Data",
+   "label": "Distribution Transformer "
+  },
+  {
+   "fieldname": "voltage",
+   "fieldtype": "Data",
+   "label": "Voltage"
+  },
+  {
+   "fieldname": "energy_meter",
+   "fieldtype": "Data",
+   "label": "Energy Meter"
+  },
+  {
+   "fieldname": "incomer_rating",
+   "fieldtype": "Data",
+   "label": "Main Incomer Rating"
+  },
+  {
+   "fieldname": "distance",
+   "fieldtype": "Data",
+   "label": "Distance"
+  },
+  {
+   "fieldname": "ct_class",
+   "fieldtype": "Data",
+   "label": "CT Class"
+  },
+  {
+   "fieldname": "ct_rating",
+   "fieldtype": "Data",
+   "label": "CT Rating"
+  },
+  {
+   "fieldname": "column_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "spin_number",
+   "fieldtype": "Data",
+   "label": "SPIN Number"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "dist_trans_capacity",
+   "fieldtype": "Data",
+   "label": "Distribution Transformer Capacity"
+  },
+  {
+   "fieldname": "code_and_category",
+   "fieldtype": "Link",
+   "label": "Code and Category",
+   "options": "Code and Category"
+  },
+  {
+   "fieldname": "phase",
+   "fieldtype": "Select",
+   "label": "Phase",
+   "options": "\nSingle Phase\nThree Phase"
+  },
+  {
+   "fieldname": "grid_availability",
+   "fieldtype": "Data",
+   "label": "Grid Availability and Quality"
+  },
+  {
+   "fieldname": "permanent_number",
+   "fieldtype": "Data",
+   "label": "Permanent Number"
+  },
+  {
+   "fieldname": "spare_feeder",
+   "fieldtype": "Data",
+   "label": "Spare Feeder"
+  },
+  {
+   "fieldname": "solar_meter",
+   "fieldtype": "Data",
+   "label": "Solar Meter"
+  },
+  {
+   "fieldname": "net_meter",
+   "fieldtype": "Data",
+   "label": "Net Meter"
+  },
+  {
+   "fieldname": "diesel_generator",
+   "fieldtype": "Data",
+   "label": "Diesel Generator Details"
+  },
+  {
+   "fieldname": "solar_meter_initial_reading",
+   "fieldtype": "Data",
+   "label": "Solar Meter Initial Reading"
+  },
+  {
+   "fieldname": "net_meter_initial_reading",
+   "fieldtype": "Data",
+   "label": "Net Meter Initial Reading"
+  },
+  {
+   "fieldname": "connected_load",
+   "fieldtype": "Data",
+   "label": "Connected Load"
+  },
+  {
+   "fieldname": "contract_demand",
+   "fieldtype": "Data",
+   "label": "Contract Demand"
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Details"
+  },
+  {
+   "fetch_from": "opportunity_id.party_name",
+   "fieldname": "lead_id",
+   "fieldtype": "Data",
+   "label": "Lead ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "village",
+   "fieldtype": "Data",
+   "label": "Village"
+  },
+  {
+   "fieldname": "registered_in_kseb_soura",
+   "fieldtype": "Select",
+   "label": "Registered in KSEB Soura",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "survey_no",
+   "fieldtype": "Data",
+   "label": "Survey No"
+  },
+  {
+   "fieldname": "corporation_or_municipality",
+   "fieldtype": "Data",
+   "label": "Corporation/Municipality/Panchayath"
+  },
+  {
+   "fieldname": "territory",
+   "fieldtype": "Link",
+   "label": "Territory",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "required_pv_connection",
+   "fieldtype": "Data",
+   "label": "Required PV Capacity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-06 17:23:02.965399",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "EB Information",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Coordinator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

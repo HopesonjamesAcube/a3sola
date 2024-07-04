@@ -1,0 +1,158 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EA-{consumer_name}-{####}",
+ "creation": "2024-01-02 11:41:16.844020",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "general_information_section",
+  "consumer_name",
+  "consumer_number",
+  "location",
+  "contract_demand",
+  "project_id",
+  "column_break_glp1a",
+  "category",
+  "section",
+  "billing_period",
+  "no_of_phase",
+  "opportunity",
+  "energy_analysis_details_section",
+  "kseb_bill_study",
+  "kseb_bill_studys",
+  "total_unit_consumed_values_section",
+  "total_unit_consumed_kwh_month",
+  "solar_plant_required_kwp",
+  "column_break_thshz",
+  "total_unit_consumed_kwh_day"
+ ],
+ "fields": [
+  {
+   "fieldname": "general_information_section",
+   "fieldtype": "Section Break",
+   "label": "General Information"
+  },
+  {
+   "fieldname": "consumer_name",
+   "fieldtype": "Data",
+   "label": "Consumer Name"
+  },
+  {
+   "fieldname": "consumer_number",
+   "fieldtype": "Data",
+   "label": "Consumer Number"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "contract_demand",
+   "fieldtype": "Data",
+   "label": "Contract Demand"
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Link",
+   "label": "Project ID",
+   "options": "Project"
+  },
+  {
+   "fieldname": "column_break_glp1a",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Category"
+  },
+  {
+   "fieldname": "section",
+   "fieldtype": "Data",
+   "label": "Section"
+  },
+  {
+   "fieldname": "billing_period",
+   "fieldtype": "Data",
+   "label": "Billing Period"
+  },
+  {
+   "fieldname": "no_of_phase",
+   "fieldtype": "Data",
+   "label": "No of Phase"
+  },
+  {
+   "fieldname": "energy_analysis_details_section",
+   "fieldtype": "Section Break",
+   "label": "Energy Analysis Details"
+  },
+  {
+   "fieldname": "kseb_bill_study",
+   "fieldtype": "Table",
+   "label": "Energy Anaysis Values",
+   "options": "Energy Analysis Child Table"
+  },
+  {
+   "fieldname": "kseb_bill_studys",
+   "fieldtype": "Table",
+   "label": "KSEB Bill Study",
+   "options": "Energy Analysis Child Table"
+  },
+  {
+   "fieldname": "total_unit_consumed_kwh_month",
+   "fieldtype": "Float",
+   "label": "Total Unit Consumed Kwh/Month"
+  },
+  {
+   "fieldname": "solar_plant_required_kwp",
+   "fieldtype": "Float",
+   "label": "Solar Plant Required Kwp"
+  },
+  {
+   "fieldname": "column_break_thshz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_unit_consumed_kwh_day",
+   "fieldtype": "Float",
+   "label": "Total Unit Consumed Kwh/Day"
+  },
+  {
+   "fieldname": "total_unit_consumed_values_section",
+   "fieldtype": "Section Break",
+   "label": "Total Unit Consumed Values"
+  },
+  {
+   "fieldname": "opportunity",
+   "fieldtype": "Link",
+   "label": "Opportunity",
+   "options": "Opportunity"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-08 11:30:41.411597",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Energy Analysis",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

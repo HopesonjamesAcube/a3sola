@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-09-27 15:07:15.439957",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "board_details",
+  "scheme",
+  "column_break_3",
+  "category",
+  "subsidy_"
+ ],
+ "fields": [
+  {
+   "fieldname": "scheme",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Scheme",
+   "options": "Scheme"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Category",
+   "options": "Category"
+  },
+  {
+   "fieldname": "subsidy_",
+   "fieldtype": "Percent",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Subsidy %"
+  },
+  {
+   "fieldname": "board_details",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Board",
+   "options": "Electricity Board"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-17 12:07:01.793670",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Subsidy Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

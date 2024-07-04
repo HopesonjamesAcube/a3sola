@@ -1,0 +1,106 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-09-27 16:10:22.565660",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "address",
+  "address_line_1",
+  "address_line_2",
+  "city",
+  "column_break_5",
+  "state",
+  "country",
+  "pincode"
+ ],
+ "fields": [
+  {
+   "fieldname": "address",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Address",
+   "options": "Address"
+  },
+  {
+   "depends_on": "Address",
+   "fetch_from": "address.address_line1",
+   "fetch_if_empty": 1,
+   "fieldname": "address_line_1",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Address Line 1"
+  },
+  {
+   "depends_on": "Address",
+   "fetch_from": "address.address_line2",
+   "fetch_if_empty": 1,
+   "fieldname": "address_line_2",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Address Line 2"
+  },
+  {
+   "depends_on": "Address",
+   "fetch_from": "address.city",
+   "fetch_if_empty": 1,
+   "fieldname": "city",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "City"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "Address",
+   "fetch_from": "address.state",
+   "fetch_if_empty": 1,
+   "fieldname": "state",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "State",
+   "options": "Territory"
+  },
+  {
+   "depends_on": "Address",
+   "fetch_from": "address.country",
+   "fetch_if_empty": 1,
+   "fieldname": "country",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "depends_on": "Address",
+   "fetch_from": "address.pincode",
+   "fetch_if_empty": 1,
+   "fieldname": "pincode",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Pincode"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-09-30 18:07:34.257441",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Lead Address",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

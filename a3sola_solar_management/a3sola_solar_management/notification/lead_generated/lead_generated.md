@@ -1,0 +1,1 @@
+Thanks for your interest in the Solar Power Plant. Our Executive will contact you soon. The unique ID assigned for you is : {{doc.name}}.

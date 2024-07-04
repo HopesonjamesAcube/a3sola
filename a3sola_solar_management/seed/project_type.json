@@ -1,0 +1,35 @@
+[
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Project Type",
+  "modified": "2023-07-31 12:48:11.153730",
+  "name": "Internal",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "project_type": "Internal"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Project Type",
+  "modified": "2023-07-31 12:48:11.159916",
+  "name": "External",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "project_type": "External"
+ },
+ {
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Project Type",
+  "modified": "2023-07-31 12:48:11.162836",
+  "name": "Other",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "project_type": "Other"
+ }
+]

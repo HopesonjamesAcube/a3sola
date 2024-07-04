@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{page_name}-{####}",
+ "creation": "2023-09-16 12:20:24.161606",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document_header_pages_section",
+  "page_name",
+  "page_description",
+  "disbale",
+  "content"
+ ],
+ "fields": [
+  {
+   "fieldname": "document_header_pages_section",
+   "fieldtype": "Section Break",
+   "label": "Document Header Pages"
+  },
+  {
+   "fieldname": "page_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Page Name"
+  },
+  {
+   "fieldname": "page_description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Page Description"
+  },
+  {
+   "default": "0",
+   "fieldname": "disbale",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Disbale"
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "HTML Editor",
+   "label": "Content"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-16 12:37:27.118626",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Header Print Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

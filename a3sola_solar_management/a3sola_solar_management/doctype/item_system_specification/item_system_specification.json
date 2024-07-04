@@ -1,0 +1,317 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-01-09 11:34:00.346687",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_cctga",
+  "quotation",
+  "status",
+  "column_break_gfp5s",
+  "system_specification_type",
+  "conventional_inverter_section",
+  "pv_module_capacity",
+  "module_wattage",
+  "number_of_modules",
+  "performance_warranty",
+  "total_inverter_capacity",
+  "module_level_monitoring",
+  "inverter_model",
+  "no_of_power_optimizers",
+  "column_break_wvtdo",
+  "pv_module_make",
+  "module_technolgy",
+  "solar_module_product__performance_warranty",
+  "array_capacity",
+  "inverter_make",
+  "standard_inverter_warranty",
+  "optimizer_warranty",
+  "remote_monitoring",
+  "conventional_inverter_commercial_section",
+  "solar_pv_plant_system_cost",
+  "solar_panel_mounting_structure_hdgi",
+  "frp_water_lines_access_way",
+  "total_project_cost_excl_tax",
+  "column_break_rtggu",
+  "solar_pv_plant_system_installation_cost",
+  "sheet_top_al_structure",
+  "electrical_inspectorate_approval",
+  "per_watt_cost",
+  "conventional_inverter_total_project_cost_section",
+  "supply_component_percentage",
+  "service_component_percentage",
+  "gst_amount",
+  "per_watt_cost_tax_inclusive",
+  "column_break_jbtfg",
+  "supply_component_amount",
+  "service_component_amount",
+  "total_project_cost_tax_inclusive",
+  "section_break_qdgpi",
+  "ksebl_fee_for_feasibility",
+  "refund_from_ksebl",
+  "kseb_statutory_particulars_column",
+  "ksebl_fee_for_solar_plant_registration"
+ ],
+ "fields": [
+  {
+   "fieldname": "conventional_inverter_section",
+   "fieldtype": "Section Break",
+   "label": "System Specifications"
+  },
+  {
+   "fieldname": "pv_module_capacity",
+   "fieldtype": "Float",
+   "label": "PV Module Capacity"
+  },
+  {
+   "fieldname": "module_wattage",
+   "fieldtype": "Data",
+   "label": "Module Wattage"
+  },
+  {
+   "fieldname": "number_of_modules",
+   "fieldtype": "Data",
+   "label": "Number of Modules"
+  },
+  {
+   "fieldname": "total_inverter_capacity",
+   "fieldtype": "Data",
+   "label": "Total Inverter Capacity"
+  },
+  {
+   "fieldname": "module_level_monitoring",
+   "fieldtype": "Data",
+   "label": "Module level Monitoring"
+  },
+  {
+   "fieldname": "no_of_power_optimizers",
+   "fieldtype": "Data",
+   "label": "No of Power Optimizers"
+  },
+  {
+   "fieldname": "remote_monitoring",
+   "fieldtype": "Select",
+   "label": "Remote Monitoring",
+   "options": "\nYes\nNo"
+  },
+  {
+   "fieldname": "column_break_wvtdo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pv_module_make",
+   "fieldtype": "Link",
+   "label": "PV Module Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "module_technolgy",
+   "fieldtype": "Data",
+   "label": "Module Technolgy"
+  },
+  {
+   "fieldname": "solar_module_product__performance_warranty",
+   "fieldtype": "Data",
+   "label": "Solar Module Product Warranty"
+  },
+  {
+   "fieldname": "inverter_make",
+   "fieldtype": "Link",
+   "label": "Inverter Make",
+   "options": "Brand"
+  },
+  {
+   "fieldname": "standard_inverter_warranty",
+   "fieldtype": "Data",
+   "label": "Standard Inverter Warranty"
+  },
+  {
+   "fieldname": "optimizer_warranty",
+   "fieldtype": "Data",
+   "label": "Optimizer Warranty"
+  },
+  {
+   "fieldname": "conventional_inverter_commercial_section",
+   "fieldtype": "Section Break",
+   "label": "Commercial"
+  },
+  {
+   "fieldname": "solar_pv_plant_system_cost",
+   "fieldtype": "Data",
+   "label": "Solar PV Plant System Cost"
+  },
+  {
+   "fieldname": "solar_panel_mounting_structure_hdgi",
+   "fieldtype": "Data",
+   "label": "Solar Panel Mounting Structure - HDGI"
+  },
+  {
+   "fieldname": "frp_water_lines_access_way",
+   "fieldtype": "Data",
+   "label": "FRP + Water lines +Access Way"
+  },
+  {
+   "fieldname": "total_project_cost_excl_tax",
+   "fieldtype": "Data",
+   "label": "Total Project Cost Excl Tax"
+  },
+  {
+   "fieldname": "column_break_rtggu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "solar_pv_plant_system_installation_cost",
+   "fieldtype": "Data",
+   "label": "Solar PV Plant System Installation Cost"
+  },
+  {
+   "fieldname": "sheet_top_al_structure",
+   "fieldtype": "Data",
+   "label": "Sheet top Al structure"
+  },
+  {
+   "fieldname": "electrical_inspectorate_approval",
+   "fieldtype": "Data",
+   "label": "Electrical Inspectorate Approval"
+  },
+  {
+   "fieldname": "per_watt_cost",
+   "fieldtype": "Data",
+   "label": "Per Watt Cost"
+  },
+  {
+   "fieldname": "conventional_inverter_total_project_cost_section",
+   "fieldtype": "Section Break",
+   "label": "Total Project Cost"
+  },
+  {
+   "fieldname": "supply_component_percentage",
+   "fieldtype": "Float",
+   "label": "Supply Component Percentage"
+  },
+  {
+   "fieldname": "service_component_percentage",
+   "fieldtype": "Float",
+   "label": "Service Component Percentage"
+  },
+  {
+   "fieldname": "gst_amount",
+   "fieldtype": "Data",
+   "label": "GST Amount"
+  },
+  {
+   "fieldname": "per_watt_cost_tax_inclusive",
+   "fieldtype": "Data",
+   "label": "Per Watt Cost (Tax Inclusive)"
+  },
+  {
+   "fieldname": "column_break_jbtfg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supply_component_amount",
+   "fieldtype": "Data",
+   "label": "Supply Component Amount"
+  },
+  {
+   "fieldname": "service_component_amount",
+   "fieldtype": "Data",
+   "label": "Service Component Amount"
+  },
+  {
+   "fieldname": "total_project_cost_tax_inclusive",
+   "fieldtype": "Data",
+   "label": "Total Project Cost (Tax Inclusive)"
+  },
+  {
+   "fieldname": "section_break_qdgpi",
+   "fieldtype": "Section Break",
+   "label": "KSEB Statutory Particulars (For all Options)"
+  },
+  {
+   "fieldname": "ksebl_fee_for_feasibility",
+   "fieldtype": "Data",
+   "label": "KSEBL fee For Feasibility"
+  },
+  {
+   "fieldname": "refund_from_ksebl",
+   "fieldtype": "Data",
+   "label": "Refund from KSEBL"
+  },
+  {
+   "fieldname": "kseb_statutory_particulars_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ksebl_fee_for_solar_plant_registration",
+   "fieldtype": "Data",
+   "label": "KSEBL fee For Solar Plant Registration"
+  },
+  {
+   "fieldname": "section_break_cctga",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "quotation",
+   "fieldtype": "Link",
+   "label": "Quotation",
+   "options": "Quotation"
+  },
+  {
+   "fieldname": "system_specification_type",
+   "fieldtype": "Select",
+   "label": "System Specification Type",
+   "options": "\nConventional Inverter\nPower Optimizer\nMicro Inverter"
+  },
+  {
+   "fieldname": "column_break_gfp5s",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Pending\nRejected\nApproved"
+  },
+  {
+   "fieldname": "performance_warranty",
+   "fieldtype": "Data",
+   "label": "Performance Warranty"
+  },
+  {
+   "fieldname": "array_capacity",
+   "fieldtype": "Data",
+   "label": "Array Capacity"
+  },
+  {
+   "fieldname": "inverter_model",
+   "fieldtype": "Data",
+   "label": "Inverter Model"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-03-25 15:11:42.706724",
+ "modified_by": "Administrator",
+ "module": "a3sola Solar Management",
+ "name": "Item System Specification",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

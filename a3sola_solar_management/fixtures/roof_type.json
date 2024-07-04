@@ -1,0 +1,42 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Roof Type",
+  "modified": "2022-09-27 20:42:18.000732",
+  "name": "Concrete Flat",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "roof_type": "Concrete Flat"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Roof Type",
+  "modified": "2022-09-27 20:42:33.527531",
+  "name": "Concrete Slope",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "roof_type": "Concrete Slope"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Roof Type",
+  "modified": "2022-09-27 20:42:46.957573",
+  "name": "Concrete Tile",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "roof_type": "Concrete Tile"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Roof Type",
+  "modified": "2022-09-27 20:43:00.401271",
+  "name": "Truss Roof",
+  "parent": null,
+  "parentfield": null,
+  "parenttype": null,
+  "roof_type": "Truss Roof"
+ }
+]
